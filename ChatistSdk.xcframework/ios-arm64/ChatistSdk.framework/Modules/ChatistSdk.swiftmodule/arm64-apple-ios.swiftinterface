@@ -1,0 +1,192 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name ChatistSdk -package-name ChatistSdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import Combine
+import Foundation
+import Network
+import OSLog
+import PhotosUI
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _PhotosUI_SwiftUI
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class Chatist {
+  @_Concurrency.MainActor public static func enableLogging(_ enabled: Swift.Bool)
+  @_Concurrency.MainActor public static func setEnvironment(_ environment: ChatistSdk.Chatist.Environment)
+  @_Concurrency.MainActor public static func initialize(key: Swift.String)
+  @_Concurrency.MainActor public static func setDeviceToken(_ deviceToken: Foundation.Data)
+  @_Concurrency.MainActor public static func isChatistPushNotification(_ userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
+  @_Concurrency.MainActor public static func willPresentNotification(_ userInfo: [Swift.AnyHashable : Any]) -> UserNotifications.UNNotificationPresentationOptions
+  @_Concurrency.MainActor public static func handlePushNotification(_ userInfo: [Swift.AnyHashable : Any])
+  @_Concurrency.MainActor public static func open()
+  @_Concurrency.MainActor public static func updateCustomer(email: Swift.String?, originalID: Swift.String?) async
+  @_Concurrency.MainActor public static func setAnalyticsDelegate(_ delegate: (any ChatistSdk.ChatistAnalyticsDelegate)?)
+  @objc deinit
+}
+@_Concurrency.MainActor public protocol ChatistAnalyticsDelegate : AnyObject {
+  @_Concurrency.MainActor func didReceiveEvent(_ event: ChatistSdk.ChatistAnalyticsEvent)
+  @_Concurrency.MainActor func didUpdateUserProperties(_ properties: [Swift.String : Any])
+  @_Concurrency.MainActor func didUpdateUserID(_ userId: Swift.String?)
+}
+extension ChatistSdk.ChatistAnalyticsDelegate {
+  @_Concurrency.MainActor public func didUpdateUserProperties(_ properties: [Swift.String : Any])
+  @_Concurrency.MainActor public func didUpdateUserID(_ userId: Swift.String?)
+}
+public struct ChatistAnalyticsEvent {
+  public let name: Swift.String
+  public let properties: [Swift.String : Any]
+  public let timestamp: Foundation.Date
+  public let sdkVersion: Swift.String
+  public let customerId: Swift.String?
+  public let originalCustomerId: Swift.String?
+  public let environment: Swift.String
+  public init(name: Swift.String, properties: [Swift.String : Any] = [:], timestamp: Foundation.Date = Date(), sdkVersion: Swift.String, customerId: Swift.String? = nil, originalCustomerId: Swift.String? = nil, environment: Swift.String)
+}
+extension ChatistSdk.ChatistAnalyticsEvent {
+  public struct Lifecycle {
+    public static let sdkInitialized: Swift.String
+    public static let sdkConfigured: Swift.String
+    public static let customerUpdated: Swift.String
+    public static let deviceTokenSet: Swift.String
+    public static let fetchedSettings: Swift.String
+  }
+  public struct Chat {
+    public static let opened: Swift.String
+    public static let closed: Swift.String
+    public static let messageSent: Swift.String
+    public static let messageReceived: Swift.String
+    public static let attachmentSent: Swift.String
+    public static let ticketCreated: Swift.String
+    public static let ticketViewed: Swift.String
+  }
+  public struct Notifications {
+    public static let pushReceived: Swift.String
+    public static let pushTapped: Swift.String
+    public static let pushPresented: Swift.String
+  }
+  public struct Errors {
+    public static let apiError: Swift.String
+    public static let networkError: Swift.String
+    public static let configurationError: Swift.String
+  }
+}
+extension ChatistSdk.ChatistAnalyticsEvent {
+  public struct PropertyKeys {
+    public static let ticketId: Swift.String
+    public static let messageId: Swift.String
+    public static let messageLength: Swift.String
+    public static let attachmentCount: Swift.String
+    public static let attachmentTypes: Swift.String
+    public static let isFirstMessage: Swift.String
+    public static let errorCode: Swift.String
+    public static let errorMessage: Swift.String
+    public static let errorDomain: Swift.String
+    public static let notificationType: Swift.String
+    public static let notificationSource: Swift.String
+    public static let screenName: Swift.String
+    public static let actionType: Swift.String
+    public static let duration: Swift.String
+    public static let deviceModel: Swift.String
+    public static let osVersion: Swift.String
+    public static let appVersion: Swift.String
+  }
+}
+@_Concurrency.MainActor @preconcurrency public struct ChatistEmptyContentView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10ChatistSdk0A16EmptyContentViewV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct ChatistErrorContentView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10ChatistSdk0A16ErrorContentViewV4bodyQrvp", 0) __
+}
+
+
+
+
+extension ChatistSdk.Chatist {
+  @frozen public enum Environment : Swift.String {
+    case production
+    case development
+    case alpha
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+public enum LoadingState<T> {
+  case idle
+  case loading
+  case loadingWithPreview(T)
+  case loaded(T)
+  case error(any Swift.Error)
+  case empty
+  public var isLoading: Swift.Bool {
+    get
+  }
+  public var value: T? {
+    get
+  }
+  public var previewValue: T? {
+    get
+  }
+}
+@_Concurrency.MainActor @preconcurrency public struct LoadingStateView<T, Content, Loading, Empty, ErrorView> : SwiftUICore.View where Content : SwiftUICore.View, Loading : SwiftUICore.View, Empty : SwiftUICore.View, ErrorView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(state: ChatistSdk.LoadingState<T>, @SwiftUICore.ViewBuilder content: @escaping (T) -> Content, @SwiftUICore.ViewBuilder loading: @escaping () -> Loading, @SwiftUICore.ViewBuilder loadingWithPreview: @escaping (T) -> Loading, @SwiftUICore.ViewBuilder empty: @escaping () -> Empty, @SwiftUICore.ViewBuilder error: @escaping (any Swift.Error) -> ErrorView)
+  @_Concurrency.MainActor @preconcurrency public init(state: ChatistSdk.LoadingState<T>, @SwiftUICore.ViewBuilder content: @escaping (T) -> Content, @SwiftUICore.ViewBuilder loading: @escaping () -> Loading, @SwiftUICore.ViewBuilder empty: @escaping () -> Empty, @SwiftUICore.ViewBuilder error: @escaping (any Swift.Error) -> ErrorView)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10ChatistSdk16LoadingStateViewV4bodyQrvp", 0) __<T, Content, Loading, Empty, ErrorView>
+}
+public enum ParallaxScrollState : Swift.Equatable {
+  case opened
+  case collapsed
+  public static func == (a: ChatistSdk.ParallaxScrollState, b: ChatistSdk.ParallaxScrollState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ParallaxHeightConfiguration {
+  public init(openedHeight: CoreFoundation.CGFloat, collapsedHeight: CoreFoundation.CGFloat)
+}
+public struct ParallaxConfiguration {
+  public init(portrait: ChatistSdk.ParallaxHeightConfiguration, landscape: ChatistSdk.ParallaxHeightConfiguration, parallaxFactor: CoreFoundation.CGFloat = 0.5, stretchFactor: CoreFoundation.CGFloat = 1.5, thresholdPercentage: CoreFoundation.CGFloat = 0.3, headerBackground: SwiftUICore.Color, contentBackground: SwiftUICore.Color)
+}
+@_Concurrency.MainActor @preconcurrency public struct ParallaxScrollView<Header, Content> : SwiftUICore.View where Header : SwiftUICore.View, Content : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(configuration: ChatistSdk.ParallaxConfiguration, onStateChange: ((ChatistSdk.ParallaxScrollState) -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder header: @escaping () -> Header, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10ChatistSdk18ParallaxScrollViewV4bodyQrvp", 0) __<Header, Content>
+}
+extension Foundation.URL : @retroactive Swift.Identifiable {
+  public var id: Foundation.URL {
+    get
+  }
+  @available(iOS 8.0, tvOS 9.0, watchOS 2.0, macOS 10.10, *)
+  public typealias ID = Foundation.URL
+}
+extension ChatistSdk.Chatist : Swift.Sendable {}
+extension ChatistSdk.ChatistEmptyContentView : Swift.Sendable {}
+extension ChatistSdk.ChatistErrorContentView : Swift.Sendable {}
+extension ChatistSdk.Chatist.Environment : Swift.Equatable {}
+extension ChatistSdk.Chatist.Environment : Swift.Hashable {}
+extension ChatistSdk.Chatist.Environment : Swift.RawRepresentable {}
+extension ChatistSdk.Chatist.Environment : Swift.Sendable {}
+extension ChatistSdk.Chatist.Environment : Swift.BitwiseCopyable {}
+extension ChatistSdk.LoadingStateView : Swift.Sendable {}
+extension ChatistSdk.ParallaxScrollState : Swift.Hashable {}
+extension ChatistSdk.ParallaxScrollView : Swift.Sendable {}
