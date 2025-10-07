@@ -48,6 +48,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -784,6 +794,7 @@
             "sugared_genericSig": "<Self where Self : ChatistSdk.ChatistAnalyticsDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -827,6 +838,7 @@
             "sugared_genericSig": "<Self where Self : ChatistSdk.ChatistAnalyticsDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -865,6 +877,7 @@
             "sugared_genericSig": "<Self where Self : ChatistSdk.ChatistAnalyticsDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Custom",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -4824,6 +4837,16 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
         "moduleName": "ChatistSdk"
       },
       {
@@ -5839,6 +5862,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -5997,30 +6027,135 @@
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 1170,
+      "offset": 1149,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1176,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1213,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "FloatLiteral",
+      "offset": 1242,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "FloatLiteral",
+      "offset": 1279,
+      "length": 4,
+      "value": "0.12"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "FloatLiteral",
+      "offset": 1312,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "FloatLiteral",
+      "offset": 1349,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "FloatLiteral",
+      "offset": 1385,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "FloatLiteral",
+      "offset": 1429,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1458,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "FloatLiteral",
+      "offset": 1530,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "FloatLiteral",
+      "offset": 1536,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1642,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1718,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 1245,
+      "offset": 2008,
       "length": 1,
-      "value": "3"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
-      "kind": "FloatLiteral",
-      "offset": 1273,
-      "length": 3,
-      "value": "0.5"
+      "kind": "IntegerLiteral",
+      "offset": 2013,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
-      "kind": "FloatLiteral",
-      "offset": 1302,
-      "length": 5,
-      "value": "0.075"
+      "kind": "IntegerLiteral",
+      "offset": 2087,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2092,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AITypingMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2459,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AdaptivePadding.swift",
@@ -6035,6 +6170,55 @@
       "offset": 419,
       "length": 2,
       "value": "24"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AutoSizingTextEditor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 294,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AutoSizingTextEditor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 324,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AutoSizingTextEditor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 361,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AutoSizingTextEditor.swift",
+      "kind": "StringLiteral",
+      "offset": 2416,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AutoSizingTextEditor.swift",
+      "kind": "StringLiteral",
+      "offset": 2564,
+      "length": 22,
+      "value": "\"composer_placeholder\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AutoSizingTextEditor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2621,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "@__swiftmacro_10ChatistSdk0031AutoSizingTextEditorswift_yFFIifMX88_0_09_35F484C6D22C2070ADCA3315E43112B3ELl7PreviewfMf_.swift",
+      "kind": "StringLiteral",
+      "offset": 651,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/CachedAsyncImage.swift",
@@ -6791,6 +6975,34 @@
       "offset": 208,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Screens\/TicketScreen\/UIComponents\/TicketComposer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 156,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Screens\/TicketScreen\/UIComponents\/TicketComposer.swift",
+      "kind": "FloatLiteral",
+      "offset": 200,
+      "length": 4,
+      "value": "40.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Screens\/TicketScreen\/UIComponents\/TicketComposer.swift",
+      "kind": "FloatLiteral",
+      "offset": 246,
+      "length": 5,
+      "value": "200.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Screens\/TicketScreen\/UIComponents\/TicketComposer.swift",
+      "kind": "FloatLiteral",
+      "offset": 299,
+      "length": 4,
+      "value": "10.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketData.swift",

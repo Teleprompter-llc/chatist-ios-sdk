@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target x86_64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name ChatistSdk -package-name ChatistSdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import Combine
 import Foundation
 import Network
@@ -14,6 +14,7 @@ import _Concurrency
 import _PhotosUI_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
+
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class Chatist {
   @_Concurrency.MainActor public static func enableLogging(_ enabled: Swift.Bool)
   @_Concurrency.MainActor public static func setEnvironment(_ environment: ChatistSdk.Chatist.Environment)
@@ -23,18 +24,26 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor public static func willPresentNotification(_ userInfo: [Swift.AnyHashable : Any]) -> UserNotifications.UNNotificationPresentationOptions
   @_Concurrency.MainActor public static func handlePushNotification(_ userInfo: [Swift.AnyHashable : Any])
   @_Concurrency.MainActor public static func open()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func updateCustomer(email: Swift.String?, originalID: Swift.String?) async
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func setAnalyticsDelegate(_ delegate: (any ChatistSdk.ChatistAnalyticsDelegate)?)
+  #endif
   @objc deinit
 }
 @_Concurrency.MainActor public protocol ChatistAnalyticsDelegate : AnyObject {
   @_Concurrency.MainActor func didReceiveEvent(_ event: ChatistSdk.ChatistAnalyticsEvent)
   @_Concurrency.MainActor func didUpdateUserProperties(_ properties: [Swift.String : Any])
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor func didUpdateUserID(_ userId: Swift.String?)
+  #endif
 }
 extension ChatistSdk.ChatistAnalyticsDelegate {
   @_Concurrency.MainActor public func didUpdateUserProperties(_ properties: [Swift.String : Any])
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public func didUpdateUserID(_ userId: Swift.String?)
+  #endif
 }
 public struct ChatistAnalyticsEvent {
   public let name: Swift.String
@@ -44,7 +53,9 @@ public struct ChatistAnalyticsEvent {
   public let customerId: Swift.String?
   public let originalCustomerId: Swift.String?
   public let environment: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(name: Swift.String, properties: [Swift.String : Any] = [:], timestamp: Foundation.Date = Date(), sdkVersion: Swift.String, customerId: Swift.String? = nil, originalCustomerId: Swift.String? = nil, environment: Swift.String)
+  #endif
 }
 extension ChatistSdk.ChatistAnalyticsEvent {
   public struct Lifecycle {
@@ -118,7 +129,9 @@ extension ChatistSdk.Chatist {
     case production
     case development
     case alpha
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -135,12 +148,16 @@ public enum LoadingState<T> {
   public var isLoading: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var value: T? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var previewValue: T? {
     get
   }
+  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct LoadingStateView<T, Content, Loading, Empty, ErrorView> : SwiftUICore.View where Content : SwiftUICore.View, Loading : SwiftUICore.View, Empty : SwiftUICore.View, ErrorView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(state: ChatistSdk.LoadingState<T>, @SwiftUICore.ViewBuilder content: @escaping (T) -> Content, @SwiftUICore.ViewBuilder loading: @escaping () -> Loading, @SwiftUICore.ViewBuilder loadingWithPreview: @escaping (T) -> Loading, @SwiftUICore.ViewBuilder empty: @escaping () -> Empty, @SwiftUICore.ViewBuilder error: @escaping (any Swift.Error) -> ErrorView)
@@ -166,7 +183,9 @@ public struct ParallaxConfiguration {
   public init(portrait: ChatistSdk.ParallaxHeightConfiguration, landscape: ChatistSdk.ParallaxHeightConfiguration, parallaxFactor: CoreFoundation.CGFloat = 0.5, stretchFactor: CoreFoundation.CGFloat = 1.5, thresholdPercentage: CoreFoundation.CGFloat = 0.3, headerBackground: SwiftUICore.Color, contentBackground: SwiftUICore.Color)
 }
 @_Concurrency.MainActor @preconcurrency public struct ParallaxScrollView<Header, Content> : SwiftUICore.View where Header : SwiftUICore.View, Content : SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(configuration: ChatistSdk.ParallaxConfiguration, onStateChange: ((ChatistSdk.ParallaxScrollState) -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder header: @escaping () -> Header, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
+  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
