@@ -4837,16 +4837,6 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "ChatistSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
         "moduleName": "ChatistSdk"
       },
       {
@@ -5721,6 +5711,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -5774,6 +5778,16 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -7054,6 +7068,97 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "Array",
+      "offset": 346,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 386,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "FloatLiteral",
+      "offset": 499,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "FloatLiteral",
+      "offset": 560,
+      "length": 5,
+      "value": "120.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 611,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "FloatLiteral",
+      "offset": 666,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "FloatLiteral",
+      "offset": 722,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "Dictionary",
+      "offset": 857,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 27,
+      "value": "\"com.chatist.ticketpolling\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "StringLiteral",
+      "offset": 10156,
+      "length": 17,
+      "value": "\"polling_started\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "StringLiteral",
+      "offset": 10204,
+      "length": 17,
+      "value": "\"polling_stopped\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "StringLiteral",
+      "offset": 10252,
+      "length": 17,
+      "value": "\"polling_timeout\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketPollingService.swift",
+      "kind": "StringLiteral",
+      "offset": 10309,
+      "length": 28,
+      "value": "\"polling_max_errors_reached\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Screens\/TicketScreen\/TicketScreen.swift",
       "kind": "BooleanLiteral",
       "offset": 121,
@@ -7066,6 +7171,13 @@
       "offset": 170,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketsData.swift",
+      "kind": "FloatLiteral",
+      "offset": 309,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Typography.swift",
