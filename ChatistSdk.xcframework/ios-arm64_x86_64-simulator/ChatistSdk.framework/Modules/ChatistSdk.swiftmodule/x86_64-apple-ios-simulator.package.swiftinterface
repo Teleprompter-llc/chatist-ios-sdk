@@ -30,6 +30,7 @@ import _SwiftConcurrencyShims
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func setAnalyticsDelegate(_ delegate: (any ChatistSdk.ChatistAnalyticsDelegate)?)
   #endif
+  @_Concurrency.MainActor public static func getUnreadMessagesCount() async -> Swift.Int
   @objc deinit
 }
 @_Concurrency.MainActor public protocol ChatistAnalyticsDelegate : AnyObject {
@@ -159,13 +160,15 @@ public enum LoadingState<T> {
   }
   #endif
 }
-@_Concurrency.MainActor @preconcurrency public struct LoadingStateView<T, Content, Loading, Empty, ErrorView> : SwiftUICore.View where Content : SwiftUICore.View, Loading : SwiftUICore.View, Empty : SwiftUICore.View, ErrorView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(state: ChatistSdk.LoadingState<T>, @SwiftUICore.ViewBuilder content: @escaping (T) -> Content, @SwiftUICore.ViewBuilder loading: @escaping () -> Loading, @SwiftUICore.ViewBuilder loadingWithPreview: @escaping (T) -> Loading, @SwiftUICore.ViewBuilder empty: @escaping () -> Empty, @SwiftUICore.ViewBuilder error: @escaping (any Swift.Error) -> ErrorView)
-  @_Concurrency.MainActor @preconcurrency public init(state: ChatistSdk.LoadingState<T>, @SwiftUICore.ViewBuilder content: @escaping (T) -> Content, @SwiftUICore.ViewBuilder loading: @escaping () -> Loading, @SwiftUICore.ViewBuilder empty: @escaping () -> Empty, @SwiftUICore.ViewBuilder error: @escaping (any Swift.Error) -> ErrorView)
+@_Concurrency.MainActor @preconcurrency public struct LoadingStateView<T, Content, Loading, LoadingPreview, Empty, ErrorView> : SwiftUICore.View where Content : SwiftUICore.View, Loading : SwiftUICore.View, LoadingPreview : SwiftUICore.View, Empty : SwiftUICore.View, ErrorView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(state: ChatistSdk.LoadingState<T>, @SwiftUICore.ViewBuilder content: @escaping (T) -> Content, @SwiftUICore.ViewBuilder loading: @escaping () -> Loading, @SwiftUICore.ViewBuilder loadingWithPreview: @escaping (T) -> LoadingPreview, @SwiftUICore.ViewBuilder empty: @escaping () -> Empty, @SwiftUICore.ViewBuilder error: @escaping (any Swift.Error) -> ErrorView)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s10ChatistSdk16LoadingStateViewV4bodyQrvp", 0) __<T, Content, Loading, Empty, ErrorView>
+  public typealias Body = @_opaqueReturnTypeOf("$s10ChatistSdk16LoadingStateViewV4bodyQrvp", 0) __<T, Content, Loading, LoadingPreview, Empty, ErrorView>
+}
+extension ChatistSdk.LoadingStateView where Loading == LoadingPreview {
+  @_Concurrency.MainActor @preconcurrency public init(state: ChatistSdk.LoadingState<T>, @SwiftUICore.ViewBuilder content: @escaping (T) -> Content, @SwiftUICore.ViewBuilder loading: @escaping () -> Loading, @SwiftUICore.ViewBuilder empty: @escaping () -> Empty, @SwiftUICore.ViewBuilder error: @escaping (any Swift.Error) -> ErrorView)
 }
 public enum ParallaxScrollState : Swift.Equatable {
   case opened
@@ -184,12 +187,23 @@ public struct ParallaxConfiguration {
 }
 @_Concurrency.MainActor @preconcurrency public struct ParallaxScrollView<Header, Content> : SwiftUICore.View where Header : SwiftUICore.View, Content : SwiftUICore.View {
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public init(configuration: ChatistSdk.ParallaxConfiguration, onStateChange: ((ChatistSdk.ParallaxScrollState) -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder header: @escaping () -> Header, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
+  @_Concurrency.MainActor @preconcurrency public init(configuration: ChatistSdk.ParallaxConfiguration, onStateChange: ((ChatistSdk.ParallaxScrollState) -> Swift.Void)? = nil, onRefresh: (() async -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder header: @escaping () -> Header, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
   #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s10ChatistSdk18ParallaxScrollViewV4bodyQrvp", 0) __<Header, Content>
+}
+@_Concurrency.MainActor @preconcurrency public struct PullToRefreshView<Content> : SwiftUICore.View where Content : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(refreshTriggerThreshold: CoreFoundation.CGFloat = 80.0, refreshIndicatorHeight: CoreFoundation.CGFloat = 40.0, contentInsetTop: CoreFoundation.CGFloat = 0, onRefresh: @escaping () async -> Swift.Void, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10ChatistSdk17PullToRefreshViewV4bodyQrvp", 0) __<Content>
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func pullToRefresh(refreshTriggerThreshold: CoreFoundation.CGFloat = 80.0, refreshIndicatorHeight: CoreFoundation.CGFloat = 40.0, contentInsetTop: CoreFoundation.CGFloat = 0, isEnabled: Swift.Bool = true, onRefresh: @escaping () async -> Swift.Void) -> some SwiftUICore.View
+  
 }
 extension Foundation.URL : @retroactive Swift.Identifiable {
   public var id: Foundation.URL {
@@ -209,3 +223,4 @@ extension ChatistSdk.Chatist.Environment : Swift.BitwiseCopyable {}
 extension ChatistSdk.LoadingStateView : Swift.Sendable {}
 extension ChatistSdk.ParallaxScrollState : Swift.Hashable {}
 extension ChatistSdk.ParallaxScrollView : Swift.Sendable {}
+extension ChatistSdk.PullToRefreshView : Swift.Sendable {}

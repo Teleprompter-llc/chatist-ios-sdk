@@ -453,6 +453,31 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "getUnreadMessagesCount",
+            "printedName": "getUnreadMessagesCount()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ChatistSdk0A0C22getUnreadMessagesCountSiyYaFZ",
+            "mangledName": "$s10ChatistSdk0A0C22getUnreadMessagesCountSiyYaFZ",
+            "moduleName": "ChatistSdk",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "TypeDecl",
             "name": "Environment",
             "printedName": "Environment",
@@ -4389,7 +4414,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "LoadingStateView",
-                "printedName": "ChatistSdk.LoadingStateView<τ_0_0, τ_0_1, τ_0_2, τ_0_3, τ_0_4>",
+                "printedName": "ChatistSdk.LoadingStateView<τ_0_0, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5>",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4415,6 +4440,11 @@
                     "kind": "TypeNominal",
                     "name": "GenericTypeParam",
                     "printedName": "τ_0_4"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_5"
                   }
                 ],
                 "usr": "s:10ChatistSdk16LoadingStateViewV"
@@ -4469,12 +4499,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(τ_0_0) -> τ_0_2",
+                "printedName": "(τ_0_0) -> τ_0_3",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "GenericTypeParam",
-                    "printedName": "τ_0_2"
+                    "printedName": "τ_0_3"
                   },
                   {
                     "kind": "TypeNominal",
@@ -4486,12 +4516,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "() -> τ_0_3",
+                "printedName": "() -> τ_0_4",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "GenericTypeParam",
-                    "printedName": "τ_0_3"
+                    "printedName": "τ_0_4"
                   },
                   {
                     "kind": "TypeNominal",
@@ -4503,12 +4533,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(any Swift.Error) -> τ_0_4",
+                "printedName": "(any Swift.Error) -> τ_0_5",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "GenericTypeParam",
-                    "printedName": "τ_0_4"
+                    "printedName": "τ_0_5"
                   },
                   {
                     "kind": "TypeNominal",
@@ -4520,150 +4550,15 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10ChatistSdk16LoadingStateViewV5state7content7loading0H11WithPreview5empty5errorACyxq_q0_q1_q2_GAA0cD0OyxG_q_xcq0_ycq0_xcq1_ycq2_s5Error_pctcfc",
-            "mangledName": "$s10ChatistSdk16LoadingStateViewV5state7content7loading0H11WithPreview5empty5errorACyxq_q0_q1_q2_GAA0cD0OyxG_q_xcq0_ycq0_xcq1_ycq2_s5Error_pctcfc",
+            "usr": "s:10ChatistSdk16LoadingStateViewV5state7content7loading0H11WithPreview5empty5errorACyxq_q0_q1_q2_q3_GAA0cD0OyxG_q_xcq0_ycq1_xcq2_ycq3_s5Error_pctcfc",
+            "mangledName": "$s10ChatistSdk16LoadingStateViewV5state7content7loading0H11WithPreview5empty5errorACyxq_q0_q1_q2_q3_GAA0cD0OyxG_q_xcq0_ycq1_xcq2_ycq3_s5Error_pctcfc",
             "moduleName": "ChatistSdk",
-            "genericSig": "<τ_0_0, τ_0_1, τ_0_2, τ_0_3, τ_0_4 where τ_0_1 : SwiftUI.View, τ_0_2 : SwiftUI.View, τ_0_3 : SwiftUI.View, τ_0_4 : SwiftUI.View>",
-            "sugared_genericSig": "<T, Content, Loading, Empty, ErrorView where Content : SwiftUI.View, Loading : SwiftUI.View, Empty : SwiftUI.View, ErrorView : SwiftUI.View>",
+            "genericSig": "<τ_0_0, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5 where τ_0_1 : SwiftUI.View, τ_0_2 : SwiftUI.View, τ_0_3 : SwiftUI.View, τ_0_4 : SwiftUI.View, τ_0_5 : SwiftUI.View>",
+            "sugared_genericSig": "<T, Content, Loading, LoadingPreview, Empty, ErrorView where Content : SwiftUI.View, Loading : SwiftUI.View, LoadingPreview : SwiftUI.View, Empty : SwiftUI.View, ErrorView : SwiftUI.View>",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
               "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(state:content:loading:empty:error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LoadingStateView",
-                "printedName": "ChatistSdk.LoadingStateView<τ_0_0, τ_0_1, τ_0_2, τ_0_3, τ_0_4>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_1"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_2"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_3"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_4"
-                  }
-                ],
-                "usr": "s:10ChatistSdk16LoadingStateViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LoadingState",
-                "printedName": "ChatistSdk.LoadingState<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:10ChatistSdk12LoadingStateO"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(τ_0_0) -> τ_0_1",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_1"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> τ_0_2",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_2"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> τ_0_3",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_3"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(any Swift.Error) -> τ_0_4",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_4"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10ChatistSdk16LoadingStateViewV5state7content7loading5empty5errorACyxq_q0_q1_q2_GAA0cD0OyxG_q_xcq0_ycq1_ycq2_s5Error_pctcfc",
-            "mangledName": "$s10ChatistSdk16LoadingStateViewV5state7content7loading5empty5errorACyxq_q0_q1_q2_GAA0cD0OyxG_q_xcq0_ycq1_ycq2_s5Error_pctcfc",
-            "moduleName": "ChatistSdk",
-            "genericSig": "<τ_0_0, τ_0_1, τ_0_2, τ_0_3, τ_0_4 where τ_0_1 : SwiftUI.View, τ_0_2 : SwiftUI.View, τ_0_3 : SwiftUI.View, τ_0_4 : SwiftUI.View>",
-            "sugared_genericSig": "<T, Content, Loading, Empty, ErrorView where Content : SwiftUI.View, Loading : SwiftUI.View, Empty : SwiftUI.View, ErrorView : SwiftUI.View>",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -4719,19 +4614,159 @@
                 "usr": "s:10ChatistSdk16LoadingStateViewV4bodyQrvg",
                 "mangledName": "$s10ChatistSdk16LoadingStateViewV4bodyQrvg",
                 "moduleName": "ChatistSdk",
-                "genericSig": "<τ_0_0, τ_0_1, τ_0_2, τ_0_3, τ_0_4 where τ_0_1 : SwiftUI.View, τ_0_2 : SwiftUI.View, τ_0_3 : SwiftUI.View, τ_0_4 : SwiftUI.View>",
-                "sugared_genericSig": "<T, Content, Loading, Empty, ErrorView where Content : SwiftUI.View, Loading : SwiftUI.View, Empty : SwiftUI.View, ErrorView : SwiftUI.View>",
+                "genericSig": "<τ_0_0, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5 where τ_0_1 : SwiftUI.View, τ_0_2 : SwiftUI.View, τ_0_3 : SwiftUI.View, τ_0_4 : SwiftUI.View, τ_0_5 : SwiftUI.View>",
+                "sugared_genericSig": "<T, Content, Loading, LoadingPreview, Empty, ErrorView where Content : SwiftUI.View, Loading : SwiftUI.View, LoadingPreview : SwiftUI.View, Empty : SwiftUI.View, ErrorView : SwiftUI.View>",
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(state:content:loading:empty:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoadingStateView",
+                "printedName": "ChatistSdk.LoadingStateView<τ_0_0, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_3"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_4"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_5"
+                  }
+                ],
+                "usr": "s:10ChatistSdk16LoadingStateViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoadingState",
+                "printedName": "ChatistSdk.LoadingState<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10ChatistSdk12LoadingStateO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_2",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_4",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_4"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any Swift.Error) -> τ_0_5",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_5"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ChatistSdk16LoadingStateViewVAAq1_Rs0_rlE5state7content7loading5empty5errorACyxq_q0_q0_q2_q3_GAA0cD0OyxG_q_xcq0_ycq2_ycq3_s5Error_pctcfc",
+            "mangledName": "$s10ChatistSdk16LoadingStateViewVAAq1_Rs0_rlE5state7content7loading5empty5errorACyxq_q0_q0_q2_q3_GAA0cD0OyxG_q_xcq0_ycq2_ycq3_s5Error_pctcfc",
+            "moduleName": "ChatistSdk",
+            "genericSig": "<τ_0_0, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5 where τ_0_1 : SwiftUI.View, τ_0_2 : SwiftUI.View, τ_0_2 == τ_0_3, τ_0_4 : SwiftUI.View, τ_0_5 : SwiftUI.View>",
+            "sugared_genericSig": "<T, Content, Loading, LoadingPreview, Empty, ErrorView where Content : SwiftUI.View, Loading : SwiftUI.View, Loading == LoadingPreview, Empty : SwiftUI.View, ErrorView : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
         "usr": "s:10ChatistSdk16LoadingStateViewV",
         "mangledName": "$s10ChatistSdk16LoadingStateViewV",
         "moduleName": "ChatistSdk",
-        "genericSig": "<τ_0_0, τ_0_1, τ_0_2, τ_0_3, τ_0_4 where τ_0_1 : SwiftUI.View, τ_0_2 : SwiftUI.View, τ_0_3 : SwiftUI.View, τ_0_4 : SwiftUI.View>",
-        "sugared_genericSig": "<T, Content, Loading, Empty, ErrorView where Content : SwiftUI.View, Loading : SwiftUI.View, Empty : SwiftUI.View, ErrorView : SwiftUI.View>",
+        "genericSig": "<τ_0_0, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5 where τ_0_1 : SwiftUI.View, τ_0_2 : SwiftUI.View, τ_0_3 : SwiftUI.View, τ_0_4 : SwiftUI.View, τ_0_5 : SwiftUI.View>",
+        "sugared_genericSig": "<T, Content, Loading, LoadingPreview, Empty, ErrorView where Content : SwiftUI.View, Loading : SwiftUI.View, LoadingPreview : SwiftUI.View, Empty : SwiftUI.View, ErrorView : SwiftUI.View>",
         "declAttributes": [
           "Preconcurrency",
           "Custom",
@@ -5230,7 +5265,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(configuration:onStateChange:header:content:)",
+            "printedName": "init(configuration:onStateChange:onRefresh:header:content:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5284,6 +5319,32 @@
                 "usr": "s:Sq"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() async -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() async -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "() -> τ_0_0",
@@ -5319,8 +5380,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10ChatistSdk18ParallaxScrollViewV13configuration13onStateChange6header7contentACyxq_GAA0C13ConfigurationV_yAA0cdH0OcSgxycq_yctcfc",
-            "mangledName": "$s10ChatistSdk18ParallaxScrollViewV13configuration13onStateChange6header7contentACyxq_GAA0C13ConfigurationV_yAA0cdH0OcSgxycq_yctcfc",
+            "usr": "s:10ChatistSdk18ParallaxScrollViewV13configuration13onStateChange0G7Refresh6header7contentACyxq_GAA0C13ConfigurationV_yAA0cdH0OcSgyyYacSgxycq_yctcfc",
+            "mangledName": "$s10ChatistSdk18ParallaxScrollViewV13configuration13onStateChange0G7Refresh6header7contentACyxq_GAA0C13ConfigurationV_yAA0cdH0OcSgyyYacSgxycq_yctcfc",
             "moduleName": "ChatistSdk",
             "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : SwiftUI.View, τ_0_1 : SwiftUI.View>",
             "sugared_genericSig": "<Header, Content where Header : SwiftUI.View, Content : SwiftUI.View>",
@@ -5498,6 +5559,229 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PullToRefreshView",
+        "printedName": "PullToRefreshView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(refreshTriggerThreshold:refreshIndicatorHeight:contentInsetTop:onRefresh:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PullToRefreshView",
+                "printedName": "ChatistSdk.PullToRefreshView<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10ChatistSdk17PullToRefreshViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() async -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ChatistSdk17PullToRefreshViewV23refreshTriggerThreshold0G15IndicatorHeight15contentInsetTop02onE00L0ACyxG14CoreFoundation7CGFloatV_A2LyyYacxyctcfc",
+            "mangledName": "$s10ChatistSdk17PullToRefreshViewV23refreshTriggerThreshold0G15IndicatorHeight15contentInsetTop02onE00L0ACyxG12CoreGraphics7CGFloatV_A2LyyYacxyctcfc",
+            "moduleName": "ChatistSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ChatistSdk17PullToRefreshViewV4bodyQrvp",
+            "mangledName": "$s10ChatistSdk17PullToRefreshViewV4bodyQrvp",
+            "moduleName": "ChatistSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ChatistSdk17PullToRefreshViewV4bodyQrvg",
+                "mangledName": "$s10ChatistSdk17PullToRefreshViewV4bodyQrvg",
+                "moduleName": "ChatistSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10ChatistSdk17PullToRefreshViewV",
+        "mangledName": "$s10ChatistSdk17PullToRefreshViewV",
+        "moduleName": "ChatistSdk",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -5787,6 +6071,132 @@
         "moduleName": "ChatistSdk",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pullToRefresh",
+            "printedName": "pullToRefresh(refreshTriggerThreshold:refreshIndicatorHeight:contentInsetTop:isEnabled:onRefresh:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() async -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP10ChatistSdkE13pullToRefresh23refreshTriggerThreshold0I15IndicatorHeight15contentInsetTop9isEnabled02onH0Qr14CoreFoundation7CGFloatV_A2MSbyyYactF",
+            "mangledName": "$s7SwiftUI4ViewP10ChatistSdkE13pullToRefresh23refreshTriggerThreshold0I15IndicatorHeight15contentInsetTop9isEnabled02onH0Qr12CoreGraphics7CGFloatV_A2MSbyyYactF",
+            "moduleName": "ChatistSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUICore",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "TypeEraser",
+          "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Custom"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6979,28 +7389,28 @@
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
       "kind": "StringLiteral",
-      "offset": 9984,
+      "offset": 10170,
       "length": 17,
       "value": "\"polling_started\""
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
       "kind": "StringLiteral",
-      "offset": 10032,
+      "offset": 10218,
       "length": 17,
       "value": "\"polling_stopped\""
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
       "kind": "StringLiteral",
-      "offset": 10080,
+      "offset": 10266,
       "length": 17,
       "value": "\"polling_timeout\""
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
       "kind": "StringLiteral",
-      "offset": 10137,
+      "offset": 10323,
       "length": 28,
       "value": "\"polling_max_errors_reached\""
     },
@@ -7017,6 +7427,83 @@
       "offset": 104,
       "length": 3,
       "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 389,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 440,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 488,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 537,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "FloatLiteral",
+      "offset": 594,
+      "length": 4,
+      "value": "80.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "FloatLiteral",
+      "offset": 638,
+      "length": 4,
+      "value": "40.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 675,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3114,
+      "length": 4,
+      "value": "80.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3158,
+      "length": 4,
+      "value": "40.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3195,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3220,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/SdkData.swift",

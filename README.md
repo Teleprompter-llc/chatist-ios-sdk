@@ -1,6 +1,6 @@
 # ChatistSdk
 
-![Version](https://img.shields.io/badge/version-0.1.2-blue)
+![Version](https://img.shields.io/badge/version-0.1.3-blue)
 ![Platform](https://img.shields.io/badge/platform-iOS%2017%2B-lightgrey)
 ![Swift](https://img.shields.io/badge/swift-6.0-orange)
 
@@ -14,14 +14,14 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Teleprompter-llc/chatist-ios-sdk.git", from: "0.1.2")
+    .package(url: "https://github.com/Teleprompter-llc/chatist-ios-sdk.git", from: "0.1.3")
 ]
 ```
 
 Or add it through Xcode:
 1. File → Add Package Dependencies
 2. Enter the repository URL: `https://github.com/Teleprompter-llc/chatist-ios-sdk.git`
-3. Select version `0.1.2` or later
+3. Select version `0.1.3` or later
 4. Click Add Package
 
 ## Requirements
@@ -70,7 +70,7 @@ For detailed documentation and examples, visit our [developer documentation](htt
 
 ## Version History
 
-- **0.1.2** - Built from commit [41d7a699782119764b3ef79c5d63eb806ad0e461](https://github.com/Teleprompter-llc/customer-support/commit/41d7a699782119764b3ef79c5d63eb806ad0e461)
+- **0.1.3** - Built from commit [2f3a27e97dedf6cdecbf109cb3f2bd516b33856e](https://github.com/Teleprompter-llc/customer-support/commit/2f3a27e97dedf6cdecbf109cb3f2bd516b33856e)
 
 ## License
 
