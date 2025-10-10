@@ -5568,6 +5568,13 @@
         "moduleName": "ChatistSdk"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
         "kind": "TypeDecl",
         "name": "PullToRefreshView",
         "printedName": "PullToRefreshView",
@@ -6619,21 +6626,21 @@
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AutoSizingTextEditor.swift",
       "kind": "StringLiteral",
-      "offset": 2416,
+      "offset": 2413,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AutoSizingTextEditor.swift",
       "kind": "StringLiteral",
-      "offset": 2564,
+      "offset": 2561,
       "length": 22,
       "value": "\"composer_placeholder\""
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/AutoSizingTextEditor.swift",
       "kind": "BooleanLiteral",
-      "offset": 2621,
+      "offset": 2618,
       "length": 5,
       "value": "false"
     },
@@ -7430,78 +7437,113 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 659,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
       "kind": "BooleanLiteral",
-      "offset": 389,
+      "offset": 715,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
       "kind": "IntegerLiteral",
-      "offset": 440,
+      "offset": 766,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
       "kind": "BooleanLiteral",
-      "offset": 488,
+      "offset": 814,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
       "kind": "IntegerLiteral",
-      "offset": 537,
+      "offset": 863,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 908,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1018,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
       "kind": "FloatLiteral",
-      "offset": 594,
+      "offset": 1075,
       "length": 4,
-      "value": "80.0"
+      "value": "44.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
       "kind": "FloatLiteral",
-      "offset": 638,
+      "offset": 1119,
       "length": 4,
       "value": "40.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
       "kind": "IntegerLiteral",
-      "offset": 675,
+      "offset": 1156,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
-      "kind": "FloatLiteral",
-      "offset": 3114,
-      "length": 4,
-      "value": "80.0"
+      "kind": "IntegerLiteral",
+      "offset": 3797,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3835,
+      "length": 2,
+      "value": "36"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
       "kind": "FloatLiteral",
-      "offset": 3158,
+      "offset": 5388,
+      "length": 4,
+      "value": "44.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5432,
       "length": 4,
       "value": "40.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3195,
+      "offset": 5469,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/PullToRefreshView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3220,
+      "offset": 5494,
       "length": 4,
       "value": "true"
     },

@@ -195,14 +195,14 @@ public struct ParallaxConfiguration {
   public typealias Body = @_opaqueReturnTypeOf("$s10ChatistSdk18ParallaxScrollViewV4bodyQrvp", 0) __<Header, Content>
 }
 @_Concurrency.MainActor @preconcurrency public struct PullToRefreshView<Content> : SwiftUICore.View where Content : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(refreshTriggerThreshold: CoreFoundation.CGFloat = 80.0, refreshIndicatorHeight: CoreFoundation.CGFloat = 40.0, contentInsetTop: CoreFoundation.CGFloat = 0, onRefresh: @escaping () async -> Swift.Void, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
+  @_Concurrency.MainActor @preconcurrency public init(refreshTriggerThreshold: CoreFoundation.CGFloat = 44.0, refreshIndicatorHeight: CoreFoundation.CGFloat = 40.0, contentInsetTop: CoreFoundation.CGFloat = 0, onRefresh: @escaping () async -> Swift.Void, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s10ChatistSdk17PullToRefreshViewV4bodyQrvp", 0) __<Content>
 }
 extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func pullToRefresh(refreshTriggerThreshold: CoreFoundation.CGFloat = 80.0, refreshIndicatorHeight: CoreFoundation.CGFloat = 40.0, contentInsetTop: CoreFoundation.CGFloat = 0, isEnabled: Swift.Bool = true, onRefresh: @escaping () async -> Swift.Void) -> some SwiftUICore.View
+  @_Concurrency.MainActor @preconcurrency public func pullToRefresh(refreshTriggerThreshold: CoreFoundation.CGFloat = 44.0, refreshIndicatorHeight: CoreFoundation.CGFloat = 40.0, contentInsetTop: CoreFoundation.CGFloat = 0, isEnabled: Swift.Bool = true, onRefresh: @escaping () async -> Swift.Void) -> some SwiftUICore.View
   
 }
 extension Foundation.URL : @retroactive Swift.Identifiable {
