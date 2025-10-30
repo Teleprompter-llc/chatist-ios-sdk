@@ -5534,20 +5534,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -7336,90 +7322,6 @@
       "offset": 161,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
-      "kind": "Array",
-      "offset": 263,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 303,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
-      "kind": "FloatLiteral",
-      "offset": 416,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
-      "kind": "FloatLiteral",
-      "offset": 476,
-      "length": 5,
-      "value": "120.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 526,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
-      "kind": "FloatLiteral",
-      "offset": 580,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
-      "kind": "FloatLiteral",
-      "offset": 635,
-      "length": 4,
-      "value": "30.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
-      "kind": "Dictionary",
-      "offset": 764,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
-      "kind": "StringLiteral",
-      "offset": 10170,
-      "length": 17,
-      "value": "\"polling_started\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
-      "kind": "StringLiteral",
-      "offset": 10218,
-      "length": 17,
-      "value": "\"polling_stopped\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
-      "kind": "StringLiteral",
-      "offset": 10266,
-      "length": 17,
-      "value": "\"polling_timeout\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/PollingService.swift",
-      "kind": "StringLiteral",
-      "offset": 10323,
-      "length": 28,
-      "value": "\"polling_max_errors_reached\""
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/ProcessInfo+Ext.swift",

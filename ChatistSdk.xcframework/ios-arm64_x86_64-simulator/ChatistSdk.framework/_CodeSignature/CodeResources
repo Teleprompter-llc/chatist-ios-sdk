@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Cxr8EoW/BN6XaVWPrvkHkjjwxDA=
+		Luys9jZboPTi65J0XR7/u051vvM=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		H57TYoI0Ko0JjWWedvlqQO1mqlY=
+		RgmPRGM683ExeL/gmAUsfDBlqt4=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ev/QdJLve75EJUzyQn7egF5s/jw=
+		NGXPYxhGpoZM9QWZQhykL4n2QPA=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		H57TYoI0Ko0JjWWedvlqQO1mqlY=
+		RgmPRGM683ExeL/gmAUsfDBlqt4=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Y29eqj8+Nghlxa3gy5uqL9ub4no=
+		84WzqkSMmw55osOUGbzAbVkPL8g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZDzeUdth54DhjRrGz0olCMin77ASVu2xJqGMWaL4ROo=
+			eckqXGUZmgbZU2GOCOLO0DqNLkSAthDZ6d9OIPc2YaQ=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
@@ -157,14 +157,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dYOYlqqq23jymBIHGSQGCFmXXfJm84JVbTqkkygpO0c=
+			lAKQgOCJhUwDYFqxdytqKjeID1O4cdKBpVIgz+HZqzY=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZDzeUdth54DhjRrGz0olCMin77ASVu2xJqGMWaL4ROo=
+			eckqXGUZmgbZU2GOCOLO0DqNLkSAthDZ6d9OIPc2YaQ=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rTFWCBm0TQvl3tC6Upi3ZSN/inXRHW7s/Y2WK4a2wjU=
+			x2UFjr7/5KFpf6jZY0BN1iPKv+Q1c6iw3MRRxbp2GVk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
