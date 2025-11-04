@@ -5893,7 +5893,10 @@
         "name": "PusherSwift",
         "printedName": "PusherSwift",
         "declKind": "Import",
-        "moduleName": "ChatistSdk"
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -7592,21 +7595,21 @@
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4865,
+      "offset": 4886,
       "length": 22,
       "value": "\"okbzgwe4pvzhay6j5dk8\""
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4925,
+      "offset": 4946,
       "length": 17,
       "value": "\"MessageReceived\""
     },
     {
       "filePath": "\/Users\/runner\/work\/customer-support\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4987,
+      "offset": 5008,
       "length": 20,
       "value": "\"TicketStateChanged\""
     },
