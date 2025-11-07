@@ -35,6 +35,7 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor public static func setAnalyticsDelegate(_ delegate: (any ChatistSdk.ChatistAnalyticsDelegate)?)
   #endif
   @_Concurrency.MainActor public static func getUnreadMessagesCount() async -> Swift.Int
+  @_Concurrency.MainActor public static func observeNotifications() -> Combine.AnyPublisher<ChatistSdk.ChatistNotification, Swift.Never>
   @objc deinit
 }
 @_Concurrency.MainActor public protocol ChatistAnalyticsDelegate : AnyObject {
@@ -128,6 +129,53 @@ extension ChatistSdk.ChatistAnalyticsEvent {
 
 
 
+public struct ChatistNotification : Swift.Equatable, Swift.Identifiable {
+  public let id: Swift.String
+  public let sender: Swift.String
+  public let message: Swift.String
+  public let avatarUrl: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.String = UUID().uuidString, sender: Swift.String, message: Swift.String, avatarUrl: Swift.String? = nil)
+  #endif
+  public static func == (a: ChatistSdk.ChatistNotification, b: ChatistSdk.ChatistNotification) -> Swift.Bool
+  public typealias ID = Swift.String
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class ChatistNotificationUIView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var notification: ChatistSdk.ChatistNotification? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var onTap: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onClose: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency convenience public init(notification: ChatistSdk.ChatistNotification, onTap: (() -> Swift.Void)? = nil, onClose: (() -> Swift.Void)? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func updateNotification(_ notification: ChatistSdk.ChatistNotification)
+  @_Concurrency.MainActor @preconcurrency public func show(animated: Swift.Bool = true)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func hide(animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct ChatistNotificationView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public let notification: ChatistSdk.ChatistNotification
+  @_Concurrency.MainActor @preconcurrency public var onTap: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onClose: (() -> Swift.Void)?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(notification: ChatistSdk.ChatistNotification, onTap: (() -> Swift.Void)? = nil, onClose: (() -> Swift.Void)? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10ChatistSdk0A16NotificationViewV4bodyQrvp", 0) __
+}
 
 extension ChatistSdk.Chatist {
   @frozen public enum Environment : Swift.String {
@@ -219,6 +267,7 @@ extension Foundation.URL : @retroactive Swift.Identifiable {
 extension ChatistSdk.Chatist : Swift.Sendable {}
 extension ChatistSdk.ChatistEmptyContentView : Swift.Sendable {}
 extension ChatistSdk.ChatistErrorContentView : Swift.Sendable {}
+extension ChatistSdk.ChatistNotificationView : Swift.Sendable {}
 extension ChatistSdk.Chatist.Environment : Swift.Equatable {}
 extension ChatistSdk.Chatist.Environment : Swift.Hashable {}
 extension ChatistSdk.Chatist.Environment : Swift.RawRepresentable {}

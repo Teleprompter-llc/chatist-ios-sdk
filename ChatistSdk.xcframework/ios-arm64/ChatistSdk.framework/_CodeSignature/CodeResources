@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/ChatistSdk-Swift.h</key>
 		<data>
-		7LhmIEpS1HNBbqdUZB6dMuEYKGc=
+		r0tn+TkWAa5tY6Dg31vEX2vKEF4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -26,15 +26,15 @@
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		KUb69MPOjaOPd2K8UyVEqzvAV3Y=
+		c/JUDXOwJGvtRtcCfa8s9r3pHcc=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<data>
-		NX0KWx8zysY5NC0w6d5ktrR052s=
+		e/pfdBDzeMqXLAXW/4HlI9WOvUk=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		NX0KWx8zysY5NC0w6d5ktrR052s=
+		e/pfdBDzeMqXLAXW/4HlI9WOvUk=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NX0KWx8zysY5NC0w6d5ktrR052s=
+		e/pfdBDzeMqXLAXW/4HlI9WOvUk=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		A4ZL9aN4v3mABXqfkR4FgtWQrmE=
+		ZE2qN4/nmR7VTUnJF/fOt0DuKsI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -60,7 +60,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EVs99WPDi9E4gBvO+H9IVe+m7e8=
+			QahYipkf5tKM1kUdgFjFAoUXiyg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XvtjNUROnWpg+JhEj+iqQ42Bao1/neJE9YDTaO2Qo/s=
+			zfxV/4Xl68YBvDk7JP9Nl3WWfuG9I1gLWyIY9tafOO8=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KJCXX3JlzcpwAA/qu5kvAHJ+5Gptwpe4Q4QQW5aJvj0=
+			CkSV5dNtPrw8WxxYs8h5n6t6inqexN2xy7IWOaCWOFo=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r4utSEynfEyRgUtzXcHIhrGM6BuTTeurwXn2BPEMJYQ=
+			8Tdk6CmARSY+7yD1/SmZngcGJpECGKtCD4dDKhWDqNE=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r4utSEynfEyRgUtzXcHIhrGM6BuTTeurwXn2BPEMJYQ=
+			8Tdk6CmARSY+7yD1/SmZngcGJpECGKtCD4dDKhWDqNE=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r4utSEynfEyRgUtzXcHIhrGM6BuTTeurwXn2BPEMJYQ=
+			8Tdk6CmARSY+7yD1/SmZngcGJpECGKtCD4dDKhWDqNE=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gn7Usx92QoZOZrjN4Rc3nJ11AAzWVPI/ielO5WbjdVM=
+			bt8QUi7W4TJA1XAJSV+/52yPr6ax4mzxmw5t0muBryw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -165,7 +165,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d5b0GdYgS/xhDA8RrydqEULdxCJIkH9QwiQVzIS4OMo=
+			h8s//NrVhFsCMMmxRBjQIo/zIsnVtU/nNTcO0MGrIE0=
 			</data>
 			<key>optional</key>
 			<true/>
