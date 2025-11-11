@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		c/JUDXOwJGvtRtcCfa8s9r3pHcc=
+		vMWxdeFY06Krrnzc+d93OI+YU2w=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ZE2qN4/nmR7VTUnJF/fOt0DuKsI=
+		A+ARJhGjrKDWJ7nEmBO5cBEGg6s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CkSV5dNtPrw8WxxYs8h5n6t6inqexN2xy7IWOaCWOFo=
+			g1VkNIPS/WbtE1a72v4SpUR3HCirqYPOSuZdrJr2820=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bt8QUi7W4TJA1XAJSV+/52yPr6ax4mzxmw5t0muBryw=
+			a489S46Qkorh1KezE4fc4ob/OtJLQTbpfkEoVs69lRs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
