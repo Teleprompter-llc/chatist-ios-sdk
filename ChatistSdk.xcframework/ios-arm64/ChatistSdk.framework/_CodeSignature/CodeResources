@@ -4,63 +4,51 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>APIClient.md</key>
-		<data>
-		1gBzZcN1XIrwNDpKLh+rLRJNgr8=
-		</data>
 		<key>Assets.car</key>
 		<data>
-		Wteco8nq+y2tdgs4+5o7h30XeMQ=
-		</data>
-		<key>FollowUpActions.md</key>
-		<data>
-		5TRnvsT8Nd68YJsHm7BKXdXQOvw=
+		rmT9R+UUXz5J+NH+ZS4fIL4d44k=
 		</data>
 		<key>Headers/ChatistSdk-Swift.h</key>
 		<data>
-		r0tn+TkWAa5tY6Dg31vEX2vKEF4=
+		/l2I4VA0lVB4jyPo3sEnNqcfCUg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SWi2IKBICoxVC2UXw+3pcDlKhS8=
+		ee8UFp1HtPFq9SQ1l5hZa3i1Axs=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		vMWxdeFY06Krrnzc+d93OI+YU2w=
+		4orguxhsQ9LdvND2FQEr9trlLeI=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<data>
-		e/pfdBDzeMqXLAXW/4HlI9WOvUk=
+		l8CYb/T4k8gYxD4EAKZoaBvbUK8=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		e/pfdBDzeMqXLAXW/4HlI9WOvUk=
+		l8CYb/T4k8gYxD4EAKZoaBvbUK8=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		lPi41ComXV0pe9dJVcMDN9EXo5Q=
+		Bp4qLz33xks+MJ6r0VhHHyrU3Mk=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		e/pfdBDzeMqXLAXW/4HlI9WOvUk=
+		l8CYb/T4k8gYxD4EAKZoaBvbUK8=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		A+ARJhGjrKDWJ7nEmBO5cBEGg6s=
+		poQm1M9lrKgh3glaDtelMclgG2A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		zMYF9Kzr32XEk6z3uyQMZxizwxs=
 		</data>
-		<key>UIComponents.md</key>
-		<data>
-		M9CkrHEbVPa/r6Gh/fEX4YClb/M=
-		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QahYipkf5tKM1kUdgFjFAoUXiyg=
+			EVs99WPDi9E4gBvO+H9IVe+m7e8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -77,74 +65,60 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>APIClient.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			boNfl+APQ/qbmZYB8zO6G2agHWVV3RVKEDbd78tT5NA=
-			</data>
-		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UHrASS8MNRKVWRoub8TeGRghjCJx1QGNI8rHKsXoDro=
-			</data>
-		</dict>
-		<key>FollowUpActions.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Nr2C+Qbv2ayGqn4QN0eqWanBDxDXDxPKSp4egf1UbYc=
+			HKAT7DL5JMbX6PjJEfgamYPuMVZ9AUQ2K6SAnBfNMNA=
 			</data>
 		</dict>
 		<key>Headers/ChatistSdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zfxV/4Xl68YBvDk7JP9Nl3WWfuG9I1gLWyIY9tafOO8=
+			iy5ftxaAeT1oDsvJ71C+Kqy1zhTi5/xZ27Rkq/tyWiM=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g1VkNIPS/WbtE1a72v4SpUR3HCirqYPOSuZdrJr2820=
+			B5YgvlpnE9/9pywMhyecGo3zeLKTqr67v7AEvTz1qxI=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Tdk6CmARSY+7yD1/SmZngcGJpECGKtCD4dDKhWDqNE=
+			SOAZ3QXSv6aZyR6+dc5AsBjjm385aQTs3jiRZUn05Rk=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Tdk6CmARSY+7yD1/SmZngcGJpECGKtCD4dDKhWDqNE=
+			SOAZ3QXSv6aZyR6+dc5AsBjjm385aQTs3jiRZUn05Rk=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BZTjJbQSlU1Y8g/srEkwzbtbhMGa/t6jsJHzWUejpQs=
+			2rt8Rv2V5IqbooeQbAjKc4zf1Yo9MGxqS94It0TfwJQ=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Tdk6CmARSY+7yD1/SmZngcGJpECGKtCD4dDKhWDqNE=
+			SOAZ3QXSv6aZyR6+dc5AsBjjm385aQTs3jiRZUn05Rk=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a489S46Qkorh1KezE4fc4ob/OtJLQTbpfkEoVs69lRs=
+			117e7ooGQLeAvmUUW/DamlCsUT4G9kA2OIIxOncDUX4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -154,18 +128,11 @@
 			AHyiCZAMfku/FByM1l59T6k5+f2+s0VSj35J+0mm6uY=
 			</data>
 		</dict>
-		<key>UIComponents.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sei++pT/hF3iBTD5zZD6zxjCDs3O/YzBbGSBb2eBv5o=
-			</data>
-		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h8s//NrVhFsCMMmxRBjQIo/zIsnVtU/nNTcO0MGrIE0=
+			d5b0GdYgS/xhDA8RrydqEULdxCJIkH9QwiQVzIS4OMo=
 			</data>
 			<key>optional</key>
 			<true/>
