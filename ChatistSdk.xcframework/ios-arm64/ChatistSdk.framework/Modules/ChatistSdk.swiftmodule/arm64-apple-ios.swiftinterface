@@ -28,6 +28,7 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor public static func willPresentNotification(_ userInfo: [Swift.AnyHashable : Any]) -> UserNotifications.UNNotificationPresentationOptions
   @_Concurrency.MainActor public static func handlePushNotification(_ userInfo: [Swift.AnyHashable : Any])
   @_Concurrency.MainActor public static func open()
+  @_Concurrency.MainActor public static func open(with ticketID: Swift.String)
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func updateCustomer(email: Swift.String?, originalID: Swift.String?) async
   #endif
@@ -35,6 +36,7 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor public static func setAnalyticsDelegate(_ delegate: (any ChatistSdk.ChatistAnalyticsDelegate)?)
   #endif
   @_Concurrency.MainActor public static func getUnreadMessagesCount() async -> Swift.Int
+  @_Concurrency.MainActor public static func observeNotifications() -> Combine.AnyPublisher<ChatistSdk.ChatistNotification, Swift.Never>
   @objc deinit
 }
 @_Concurrency.MainActor public protocol ChatistAnalyticsDelegate : AnyObject {
@@ -112,8 +114,27 @@ extension ChatistSdk.ChatistAnalyticsEvent {
   }
 }
 
+public struct ChatistNotification : Swift.Equatable {
+  public let messageID: Swift.String
+  public let ticketID: Swift.String
+  public let sender: Swift.String
+  public let message: Swift.String
+  public let avatarUrl: Swift.String?
+  public static func == (a: ChatistSdk.ChatistNotification, b: ChatistSdk.ChatistNotification) -> Swift.Bool
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ChatistNotificationView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var onTap: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onClose: (() -> Swift.Void)?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(notification: ChatistSdk.ChatistNotification, onTap: (() -> Swift.Void)? = nil, onClose: (() -> Swift.Void)? = nil)
+  #endif
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency public func updateNotification(_ notification: ChatistSdk.ChatistNotification)
+}
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ChatistViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(ticketID: Swift.String? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)

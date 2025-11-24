@@ -281,6 +281,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import UIKit;
 #endif
 
@@ -305,13 +306,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 @class NSCoder;
+SWIFT_CLASS("_TtC10ChatistSdk23ChatistNotificationView")
+@interface ChatistNotificationView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 @class NSString;
 @class NSBundle;
 /// Main view controller for Chatist chat interface
 /// This is the public API entry point - wraps the coordinator and navigation
 SWIFT_CLASS("_TtC10ChatistSdk21ChatistViewController")
 @interface ChatistViewController : UIViewController
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
