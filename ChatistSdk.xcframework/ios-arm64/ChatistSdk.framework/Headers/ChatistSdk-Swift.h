@@ -306,38 +306,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 @class NSCoder;
+/// A view that displays an in-app notification for new chat messages.
+/// This view presents a banner-style notification with the sender’s avatar, name, and message preview.
 SWIFT_CLASS("_TtC10ChatistSdk23ChatistNotificationView")
 @interface ChatistNotificationView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
-@class NSString;
-@class NSBundle;
-/// Main view controller for Chatist chat interface
-/// This is the public API entry point - wraps the coordinator and navigation
-SWIFT_CLASS("_TtC10ChatistSdk21ChatistViewController")
-@interface ChatistViewController : UIViewController
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
-- (void)viewDidDisappear:(BOOL)animated;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-@class UITraitCollection;
-SWIFT_CLASS("_TtC10ChatistSdk27ParallaxTableViewController")
-@interface ParallaxTableViewController : UIViewController
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)viewDidLoad;
-- (void)viewDidLayoutSubviews;
-- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-@class UIScrollView;
-@interface ParallaxTableViewController (SWIFT_EXTENSION(ChatistSdk)) <UITableViewDelegate>
-- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
 
 #endif

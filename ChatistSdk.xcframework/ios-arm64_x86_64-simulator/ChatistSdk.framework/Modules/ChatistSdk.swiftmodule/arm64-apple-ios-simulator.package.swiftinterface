@@ -113,7 +113,6 @@ extension ChatistSdk.ChatistAnalyticsEvent {
     public static let appVersion: Swift.String
   }
 }
-
 public struct ChatistNotification : Swift.Equatable {
   public let messageID: Swift.String
   public let ticketID: Swift.String
@@ -131,15 +130,6 @@ public struct ChatistNotification : Swift.Equatable {
   @objc deinit
   @_Concurrency.MainActor @preconcurrency public func updateNotification(_ notification: ChatistSdk.ChatistNotification)
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ChatistViewController : UIKit.UIViewController {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public init(ticketID: Swift.String? = nil)
-  #endif
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
-  @objc deinit
-}
 extension ChatistSdk.Chatist {
   @frozen public enum Environment : Swift.String {
     case production
@@ -154,55 +144,6 @@ extension ChatistSdk.Chatist {
     }
   }
 }
-public struct ParallaxConfiguration {
-  public let portrait: ChatistSdk.ParallaxHeightConfiguration
-  public let landscape: ChatistSdk.ParallaxHeightConfiguration
-  public let thresholdPercentage: CoreFoundation.CGFloat
-  public let headerBackground: UIKit.UIColor
-  public let contentBackground: UIKit.UIColor
-  public func heightConfig(for traitCollection: UIKit.UITraitCollection) -> ChatistSdk.ParallaxHeightConfiguration
-}
-public struct ParallaxHeightConfiguration : Swift.Equatable {
-  public let openedHeight: CoreFoundation.CGFloat
-  public let collapsedHeight: CoreFoundation.CGFloat
-  public var collapseDistance: CoreFoundation.CGFloat {
-    get
-  }
-  public static func == (a: ChatistSdk.ParallaxHeightConfiguration, b: ChatistSdk.ParallaxHeightConfiguration) -> Swift.Bool
-}
-public enum ParallaxScrollState : Swift.Equatable, Swift.CustomStringConvertible {
-  case opened
-  case collapsed
-  public var description: Swift.String {
-    get
-  }
-  public static func == (a: ChatistSdk.ParallaxScrollState, b: ChatistSdk.ParallaxScrollState) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ParallaxTableViewController : UIKit.UIViewController, Combine.ObservableObject {
-  @_Concurrency.MainActor @preconcurrency public var tableViewContainerInsets: UIKit.UIEdgeInsets
-  @_Concurrency.MainActor @preconcurrency public var onCloseButtonTapped: (() -> Swift.Void)?
-  @Combine.Published @_projectedValueProperty($state) @_Concurrency.MainActor @preconcurrency public var state: ChatistSdk.ParallaxScrollState {
-    get
-  }
-  @_Concurrency.MainActor @preconcurrency public var $state: Combine.Published<ChatistSdk.ParallaxScrollState>.Publisher {
-    get
-  }
-  @_Concurrency.MainActor @preconcurrency public init(tableView: UIKit.UITableView, normalHeaderView: UIKit.UIView, collapsedHeaderView: UIKit.UIView, configuration: ChatistSdk.ParallaxConfiguration, tableViewContainerInsets: UIKit.UIEdgeInsets = .zero)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
-  #endif
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-  @objc deinit
-}
-extension ChatistSdk.ParallaxTableViewController : UIKit.UITableViewDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
-}
 extension Foundation.URL : @retroactive Swift.Identifiable {
   public var id: Foundation.URL {
     get
@@ -210,23 +151,9 @@ extension Foundation.URL : @retroactive Swift.Identifiable {
   @available(iOS 8.0, tvOS 9.0, watchOS 2.0, macOS 10.10, *)
   public typealias ID = Foundation.URL
 }
-public enum UserTier : Swift.Equatable {
-  case free
-  case paid
-  public var showsBranding: Swift.Bool {
-    get
-  }
-  public static func == (a: ChatistSdk.UserTier, b: ChatistSdk.UserTier) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 extension ChatistSdk.Chatist : Swift.Sendable {}
 extension ChatistSdk.Chatist.Environment : Swift.Equatable {}
 extension ChatistSdk.Chatist.Environment : Swift.Hashable {}
 extension ChatistSdk.Chatist.Environment : Swift.RawRepresentable {}
 extension ChatistSdk.Chatist.Environment : Swift.Sendable {}
 extension ChatistSdk.Chatist.Environment : Swift.BitwiseCopyable {}
-extension ChatistSdk.ParallaxScrollState : Swift.Hashable {}
-extension ChatistSdk.UserTier : Swift.Hashable {}

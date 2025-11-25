@@ -147,7 +147,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -176,7 +177,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -205,7 +207,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -228,7 +231,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -251,7 +255,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -280,7 +285,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -323,7 +329,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -366,7 +373,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -408,7 +416,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -431,7 +440,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -460,7 +470,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -511,7 +522,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -612,7 +624,8 @@
             "declAttributes": [
               "Final",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -894,7 +907,8 @@
         "declAttributes": [
           "Final",
           "AccessControl",
-          "Custom"
+          "Custom",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
@@ -3566,7 +3580,8 @@
             "moduleName": "ChatistSdk",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3610,7 +3625,8 @@
             "moduleName": "ChatistSdk",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3654,7 +3670,8 @@
             "moduleName": "ChatistSdk",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3698,7 +3715,8 @@
             "moduleName": "ChatistSdk",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3750,7 +3768,8 @@
             "moduleName": "ChatistSdk",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3822,7 +3841,8 @@
         "mangledName": "$s10ChatistSdk0A12NotificationV",
         "moduleName": "ChatistSdk",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -4049,7 +4069,8 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -4308,6 +4329,7 @@
           "Preconcurrency",
           "Custom",
           "AccessControl",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIView",
@@ -4422,306 +4444,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "ChatistViewController",
-        "printedName": "ChatistViewController",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(ticketID:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ChatistViewController",
-                "printedName": "ChatistSdk.ChatistViewController",
-                "usr": "c:@M@ChatistSdk@objc(cs)ChatistViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10ChatistSdk0A14ViewControllerC8ticketIDACSSSg_tcfc",
-            "mangledName": "$s10ChatistSdk0A14ViewControllerC8ticketIDACSSSg_tcfc",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ChatistSdk@objc(cs)ChatistViewController(im)viewDidLoad",
-            "mangledName": "$s10ChatistSdk0A14ViewControllerC11viewDidLoadyyF",
-            "moduleName": "ChatistSdk",
-            "overriding": true,
-            "objc_name": "viewDidLoad",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidAppear",
-            "printedName": "viewDidAppear(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ChatistSdk@objc(cs)ChatistViewController(im)viewDidAppear:",
-            "mangledName": "$s10ChatistSdk0A14ViewControllerC13viewDidAppearyySbF",
-            "moduleName": "ChatistSdk",
-            "overriding": true,
-            "objc_name": "viewDidAppear:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidDisappear",
-            "printedName": "viewDidDisappear(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ChatistSdk@objc(cs)ChatistViewController(im)viewDidDisappear:",
-            "mangledName": "$s10ChatistSdk0A14ViewControllerC16viewDidDisappearyySbF",
-            "moduleName": "ChatistSdk",
-            "overriding": true,
-            "objc_name": "viewDidDisappear:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(nibName:bundle:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ChatistViewController",
-                "printedName": "ChatistSdk.ChatistViewController",
-                "usr": "c:@M@ChatistSdk@objc(cs)ChatistViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Bundle?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ChatistSdk@objc(cs)ChatistViewController(im)initWithNibName:bundle:",
-            "mangledName": "$s10ChatistSdk0A14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
-            "moduleName": "ChatistSdk",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithNibName:bundle:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@ChatistSdk@objc(cs)ChatistViewController",
-        "mangledName": "$s10ChatistSdk0A14ViewControllerC",
-        "moduleName": "ChatistSdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "RawDocComment",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIViewController",
-        "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "UIKit.UIViewController",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -4826,6 +4548,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4922,20 +4654,6 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5003,284 +4721,6 @@
         "moduleName": "ChatistSdk",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ParallaxConfiguration",
-        "printedName": "ParallaxConfiguration",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "portrait",
-            "printedName": "portrait",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ParallaxHeightConfiguration",
-                "printedName": "ChatistSdk.ParallaxHeightConfiguration",
-                "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk21ParallaxConfigurationV8portraitAA0c6HeightD0Vvp",
-            "mangledName": "$s10ChatistSdk21ParallaxConfigurationV8portraitAA0c6HeightD0Vvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ParallaxHeightConfiguration",
-                    "printedName": "ChatistSdk.ParallaxHeightConfiguration",
-                    "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk21ParallaxConfigurationV8portraitAA0c6HeightD0Vvg",
-                "mangledName": "$s10ChatistSdk21ParallaxConfigurationV8portraitAA0c6HeightD0Vvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "landscape",
-            "printedName": "landscape",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ParallaxHeightConfiguration",
-                "printedName": "ChatistSdk.ParallaxHeightConfiguration",
-                "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk21ParallaxConfigurationV9landscapeAA0c6HeightD0Vvp",
-            "mangledName": "$s10ChatistSdk21ParallaxConfigurationV9landscapeAA0c6HeightD0Vvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ParallaxHeightConfiguration",
-                    "printedName": "ChatistSdk.ParallaxHeightConfiguration",
-                    "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk21ParallaxConfigurationV9landscapeAA0c6HeightD0Vvg",
-                "mangledName": "$s10ChatistSdk21ParallaxConfigurationV9landscapeAA0c6HeightD0Vvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "thresholdPercentage",
-            "printedName": "thresholdPercentage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk21ParallaxConfigurationV19thresholdPercentage14CoreFoundation7CGFloatVvp",
-            "mangledName": "$s10ChatistSdk21ParallaxConfigurationV19thresholdPercentage12CoreGraphics7CGFloatVvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk21ParallaxConfigurationV19thresholdPercentage14CoreFoundation7CGFloatVvg",
-                "mangledName": "$s10ChatistSdk21ParallaxConfigurationV19thresholdPercentage12CoreGraphics7CGFloatVvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "headerBackground",
-            "printedName": "headerBackground",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk21ParallaxConfigurationV16headerBackgroundSo7UIColorCvp",
-            "mangledName": "$s10ChatistSdk21ParallaxConfigurationV16headerBackgroundSo7UIColorCvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk21ParallaxConfigurationV16headerBackgroundSo7UIColorCvg",
-                "mangledName": "$s10ChatistSdk21ParallaxConfigurationV16headerBackgroundSo7UIColorCvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "contentBackground",
-            "printedName": "contentBackground",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk21ParallaxConfigurationV17contentBackgroundSo7UIColorCvp",
-            "mangledName": "$s10ChatistSdk21ParallaxConfigurationV17contentBackgroundSo7UIColorCvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk21ParallaxConfigurationV17contentBackgroundSo7UIColorCvg",
-                "mangledName": "$s10ChatistSdk21ParallaxConfigurationV17contentBackgroundSo7UIColorCvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "heightConfig",
-            "printedName": "heightConfig(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ParallaxHeightConfiguration",
-                "printedName": "ChatistSdk.ParallaxHeightConfiguration",
-                "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UITraitCollection",
-                "printedName": "UIKit.UITraitCollection",
-                "usr": "c:objc(cs)UITraitCollection"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10ChatistSdk21ParallaxConfigurationV12heightConfig3forAA0c6HeightD0VSo17UITraitCollectionC_tF",
-            "mangledName": "$s10ChatistSdk21ParallaxConfigurationV12heightConfig3forAA0c6HeightD0VSo17UITraitCollectionC_tF",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:10ChatistSdk21ParallaxConfigurationV",
-        "mangledName": "$s10ChatistSdk21ParallaxConfigurationV",
-        "moduleName": "ChatistSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -5294,205 +4734,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "ParallaxHeightConfiguration",
-        "printedName": "ParallaxHeightConfiguration",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "openedHeight",
-            "printedName": "openedHeight",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV06openedD014CoreFoundation7CGFloatVvp",
-            "mangledName": "$s10ChatistSdk27ParallaxHeightConfigurationV06openedD012CoreGraphics7CGFloatVvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV06openedD014CoreFoundation7CGFloatVvg",
-                "mangledName": "$s10ChatistSdk27ParallaxHeightConfigurationV06openedD012CoreGraphics7CGFloatVvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "collapsedHeight",
-            "printedName": "collapsedHeight",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV09collapsedD014CoreFoundation7CGFloatVvp",
-            "mangledName": "$s10ChatistSdk27ParallaxHeightConfigurationV09collapsedD012CoreGraphics7CGFloatVvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV09collapsedD014CoreFoundation7CGFloatVvg",
-                "mangledName": "$s10ChatistSdk27ParallaxHeightConfigurationV09collapsedD012CoreGraphics7CGFloatVvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "collapseDistance",
-            "printedName": "collapseDistance",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV16collapseDistance14CoreFoundation7CGFloatVvp",
-            "mangledName": "$s10ChatistSdk27ParallaxHeightConfigurationV16collapseDistance12CoreGraphics7CGFloatVvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV16collapseDistance14CoreFoundation7CGFloatVvg",
-                "mangledName": "$s10ChatistSdk27ParallaxHeightConfigurationV16collapseDistance12CoreGraphics7CGFloatVvg",
-                "moduleName": "ChatistSdk",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ParallaxHeightConfiguration",
-                "printedName": "ChatistSdk.ParallaxHeightConfiguration",
-                "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ParallaxHeightConfiguration",
-                "printedName": "ChatistSdk.ParallaxHeightConfiguration",
-                "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s10ChatistSdk27ParallaxHeightConfigurationV2eeoiySbAC_ACtFZ",
-            "moduleName": "ChatistSdk",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:10ChatistSdk27ParallaxHeightConfigurationV",
-        "mangledName": "$s10ChatistSdk27ParallaxHeightConfigurationV",
-        "moduleName": "ChatistSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -5500,268 +4741,6 @@
         "moduleName": "ChatistSdk",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ParallaxScrollState",
-        "printedName": "ParallaxScrollState",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "opened",
-            "printedName": "opened",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ChatistSdk.ParallaxScrollState.Type) -> ChatistSdk.ParallaxScrollState",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ParallaxScrollState",
-                    "printedName": "ChatistSdk.ParallaxScrollState",
-                    "usr": "s:10ChatistSdk19ParallaxScrollStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "ChatistSdk.ParallaxScrollState.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ParallaxScrollState",
-                        "printedName": "ChatistSdk.ParallaxScrollState",
-                        "usr": "s:10ChatistSdk19ParallaxScrollStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10ChatistSdk19ParallaxScrollStateO6openedyA2CmF",
-            "mangledName": "$s10ChatistSdk19ParallaxScrollStateO6openedyA2CmF",
-            "moduleName": "ChatistSdk"
-          },
-          {
-            "kind": "Var",
-            "name": "collapsed",
-            "printedName": "collapsed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ChatistSdk.ParallaxScrollState.Type) -> ChatistSdk.ParallaxScrollState",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ParallaxScrollState",
-                    "printedName": "ChatistSdk.ParallaxScrollState",
-                    "usr": "s:10ChatistSdk19ParallaxScrollStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "ChatistSdk.ParallaxScrollState.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ParallaxScrollState",
-                        "printedName": "ChatistSdk.ParallaxScrollState",
-                        "usr": "s:10ChatistSdk19ParallaxScrollStateO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10ChatistSdk19ParallaxScrollStateO9collapsedyA2CmF",
-            "mangledName": "$s10ChatistSdk19ParallaxScrollStateO9collapsedyA2CmF",
-            "moduleName": "ChatistSdk"
-          },
-          {
-            "kind": "Var",
-            "name": "description",
-            "printedName": "description",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk19ParallaxScrollStateO11descriptionSSvp",
-            "mangledName": "$s10ChatistSdk19ParallaxScrollStateO11descriptionSSvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk19ParallaxScrollStateO11descriptionSSvg",
-                "mangledName": "$s10ChatistSdk19ParallaxScrollStateO11descriptionSSvg",
-                "moduleName": "ChatistSdk",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk19ParallaxScrollStateO9hashValueSivp",
-            "mangledName": "$s10ChatistSdk19ParallaxScrollStateO9hashValueSivp",
-            "moduleName": "ChatistSdk",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk19ParallaxScrollStateO9hashValueSivg",
-                "mangledName": "$s10ChatistSdk19ParallaxScrollStateO9hashValueSivg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10ChatistSdk19ParallaxScrollStateO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s10ChatistSdk19ParallaxScrollStateO4hash4intoys6HasherVz_tF",
-            "moduleName": "ChatistSdk",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ParallaxScrollState",
-                "printedName": "ChatistSdk.ParallaxScrollState",
-                "usr": "s:10ChatistSdk19ParallaxScrollStateO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ParallaxScrollState",
-                "printedName": "ChatistSdk.ParallaxScrollState",
-                "usr": "s:10ChatistSdk19ParallaxScrollStateO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10ChatistSdk19ParallaxScrollStateO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s10ChatistSdk19ParallaxScrollStateO2eeoiySbAC_ACtFZ",
-            "moduleName": "ChatistSdk",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:10ChatistSdk19ParallaxScrollStateO",
-        "mangledName": "$s10ChatistSdk19ParallaxScrollStateO",
-        "moduleName": "ChatistSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          }
         ]
       },
       {
@@ -5780,699 +4759,6 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ParallaxTableViewController",
-        "printedName": "ParallaxTableViewController",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "tableViewContainerInsets",
-            "printedName": "tableViewContainerInsets",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIEdgeInsets",
-                "printedName": "UIKit.UIEdgeInsets",
-                "usr": "c:@S@UIEdgeInsets"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk27ParallaxTableViewControllerC05tableE15ContainerInsetsSo06UIEdgeI0Vvp",
-            "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC05tableE15ContainerInsetsSo06UIEdgeI0Vvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIEdgeInsets",
-                    "printedName": "UIKit.UIEdgeInsets",
-                    "usr": "c:@S@UIEdgeInsets"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk27ParallaxTableViewControllerC05tableE15ContainerInsetsSo06UIEdgeI0Vvg",
-                "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC05tableE15ContainerInsetsSo06UIEdgeI0Vvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIEdgeInsets",
-                    "printedName": "UIKit.UIEdgeInsets",
-                    "usr": "c:@S@UIEdgeInsets"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk27ParallaxTableViewControllerC05tableE15ContainerInsetsSo06UIEdgeI0Vvs",
-                "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC05tableE15ContainerInsetsSo06UIEdgeI0Vvs",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk27ParallaxTableViewControllerC05tableE15ContainerInsetsSo06UIEdgeI0VvM",
-                "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC05tableE15ContainerInsetsSo06UIEdgeI0VvM",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onCloseButtonTapped",
-            "printedName": "onCloseButtonTapped",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk27ParallaxTableViewControllerC19onCloseButtonTappedyycSgvp",
-            "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC19onCloseButtonTappedyycSgvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk27ParallaxTableViewControllerC19onCloseButtonTappedyycSgvg",
-                "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC19onCloseButtonTappedyycSgvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk27ParallaxTableViewControllerC19onCloseButtonTappedyycSgvs",
-                "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC19onCloseButtonTappedyycSgvs",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk27ParallaxTableViewControllerC19onCloseButtonTappedyycSgvM",
-                "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC19onCloseButtonTappedyycSgvM",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "state",
-            "printedName": "state",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ParallaxScrollState",
-                "printedName": "ChatistSdk.ParallaxScrollState",
-                "usr": "s:10ChatistSdk19ParallaxScrollStateO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk27ParallaxTableViewControllerC5stateAA0C11ScrollStateOvp",
-            "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC5stateAA0C11ScrollStateOvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "ProjectedValueProperty",
-              "SetterAccess",
-              "AccessControl",
-              "Custom"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ParallaxScrollState",
-                    "printedName": "ChatistSdk.ParallaxScrollState",
-                    "usr": "s:10ChatistSdk19ParallaxScrollStateO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk27ParallaxTableViewControllerC5stateAA0C11ScrollStateOvg",
-                "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC5stateAA0C11ScrollStateOvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "$state",
-            "printedName": "$state",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Publisher",
-                "printedName": "Combine.Published<ChatistSdk.ParallaxScrollState>.Publisher",
-                "usr": "s:7Combine9PublishedV9PublisherV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk27ParallaxTableViewControllerC6$state7Combine9PublishedV9PublisherVyAA0C11ScrollStateO_Gvp",
-            "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC6$state7Combine9PublishedV9PublisherVyAA0C11ScrollStateO_Gvp",
-            "moduleName": "ChatistSdk",
-            "implicit": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Publisher",
-                    "printedName": "Combine.Published<ChatistSdk.ParallaxScrollState>.Publisher",
-                    "usr": "s:7Combine9PublishedV9PublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk27ParallaxTableViewControllerC6$state7Combine9PublishedV9PublisherVyAA0C11ScrollStateO_Gvg",
-                "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC6$state7Combine9PublishedV9PublisherVyAA0C11ScrollStateO_Gvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(tableView:normalHeaderView:collapsedHeaderView:configuration:tableViewContainerInsets:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ParallaxTableViewController",
-                "printedName": "ChatistSdk.ParallaxTableViewController",
-                "usr": "c:@M@ChatistSdk@objc(cs)ParallaxTableViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UITableView",
-                "printedName": "UIKit.UITableView",
-                "usr": "c:objc(cs)UITableView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ParallaxConfiguration",
-                "printedName": "ChatistSdk.ParallaxConfiguration",
-                "usr": "s:10ChatistSdk21ParallaxConfigurationV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIEdgeInsets",
-                "printedName": "UIKit.UIEdgeInsets",
-                "hasDefaultArg": true,
-                "usr": "c:@S@UIEdgeInsets"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10ChatistSdk27ParallaxTableViewControllerC05tableE0012normalHeaderE009collapsediE013configuration0gE15ContainerInsetsACSo07UITableE0C_So6UIViewCAlA0C13ConfigurationVSo06UIEdgeM0Vtcfc",
-            "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC05tableE0012normalHeaderE009collapsediE013configuration0gE15ContainerInsetsACSo07UITableE0C_So6UIViewCAlA0C13ConfigurationVSo06UIEdgeM0Vtcfc",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ChatistSdk@objc(cs)ParallaxTableViewController(im)viewDidLoad",
-            "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC11viewDidLoadyyF",
-            "moduleName": "ChatistSdk",
-            "overriding": true,
-            "objc_name": "viewDidLoad",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidLayoutSubviews",
-            "printedName": "viewDidLayoutSubviews()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ChatistSdk@objc(cs)ParallaxTableViewController(im)viewDidLayoutSubviews",
-            "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC21viewDidLayoutSubviewsyyF",
-            "moduleName": "ChatistSdk",
-            "overriding": true,
-            "objc_name": "viewDidLayoutSubviews",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "traitCollectionDidChange",
-            "printedName": "traitCollectionDidChange(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UITraitCollection?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UITraitCollection",
-                    "printedName": "UIKit.UITraitCollection",
-                    "usr": "c:objc(cs)UITraitCollection"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ChatistSdk@objc(cs)ParallaxTableViewController(im)traitCollectionDidChange:",
-            "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC24traitCollectionDidChangeyySo07UITraitH0CSgF",
-            "moduleName": "ChatistSdk",
-            "overriding": true,
-            "objc_name": "traitCollectionDidChange:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(nibName:bundle:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ParallaxTableViewController",
-                "printedName": "ChatistSdk.ParallaxTableViewController",
-                "usr": "c:@M@ChatistSdk@objc(cs)ParallaxTableViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Bundle?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ChatistSdk@objc(cs)ParallaxTableViewController(im)initWithNibName:bundle:",
-            "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
-            "moduleName": "ChatistSdk",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithNibName:bundle:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "scrollViewDidScroll",
-            "printedName": "scrollViewDidScroll(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIScrollView",
-                "printedName": "UIKit.UIScrollView",
-                "usr": "c:objc(cs)UIScrollView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ChatistSdk@objc(cs)ParallaxTableViewController(im)scrollViewDidScroll:",
-            "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC06scrollE9DidScrollyySo08UIScrollE0CF",
-            "moduleName": "ChatistSdk",
-            "objc_name": "scrollViewDidScroll:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@ChatistSdk@objc(cs)ParallaxTableViewController",
-        "mangledName": "$s10ChatistSdk27ParallaxTableViewControllerC",
-        "moduleName": "ChatistSdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIViewController",
-        "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "UIKit.UIViewController",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ObservableObject",
-            "printedName": "ObservableObject",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ObjectWillChangePublisher",
-                "printedName": "ObjectWillChangePublisher",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObservableObjectPublisher",
-                    "printedName": "Combine.ObservableObjectPublisher",
-                    "usr": "s:7Combine25ObservableObjectPublisherC"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7Combine16ObservableObjectP",
-            "mangledName": "$s7Combine16ObservableObjectP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -6530,7 +4816,7 @@
         "declKind": "Import",
         "moduleName": "ChatistSdk",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -6718,20 +5004,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -6756,7 +5028,10 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "ChatistSdk"
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -6928,20 +5203,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -7047,261 +5308,6 @@
         "moduleName": "ChatistSdk",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UserTier",
-        "printedName": "UserTier",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "free",
-            "printedName": "free",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ChatistSdk.UserTier.Type) -> ChatistSdk.UserTier",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UserTier",
-                    "printedName": "ChatistSdk.UserTier",
-                    "usr": "s:10ChatistSdk8UserTierO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "ChatistSdk.UserTier.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UserTier",
-                        "printedName": "ChatistSdk.UserTier",
-                        "usr": "s:10ChatistSdk8UserTierO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10ChatistSdk8UserTierO4freeyA2CmF",
-            "mangledName": "$s10ChatistSdk8UserTierO4freeyA2CmF",
-            "moduleName": "ChatistSdk"
-          },
-          {
-            "kind": "Var",
-            "name": "paid",
-            "printedName": "paid",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ChatistSdk.UserTier.Type) -> ChatistSdk.UserTier",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UserTier",
-                    "printedName": "ChatistSdk.UserTier",
-                    "usr": "s:10ChatistSdk8UserTierO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "ChatistSdk.UserTier.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UserTier",
-                        "printedName": "ChatistSdk.UserTier",
-                        "usr": "s:10ChatistSdk8UserTierO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10ChatistSdk8UserTierO4paidyA2CmF",
-            "mangledName": "$s10ChatistSdk8UserTierO4paidyA2CmF",
-            "moduleName": "ChatistSdk"
-          },
-          {
-            "kind": "Var",
-            "name": "showsBranding",
-            "printedName": "showsBranding",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk8UserTierO13showsBrandingSbvp",
-            "mangledName": "$s10ChatistSdk8UserTierO13showsBrandingSbvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk8UserTierO13showsBrandingSbvg",
-                "mangledName": "$s10ChatistSdk8UserTierO13showsBrandingSbvg",
-                "moduleName": "ChatistSdk",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk8UserTierO9hashValueSivp",
-            "mangledName": "$s10ChatistSdk8UserTierO9hashValueSivp",
-            "moduleName": "ChatistSdk",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk8UserTierO9hashValueSivg",
-                "mangledName": "$s10ChatistSdk8UserTierO9hashValueSivg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10ChatistSdk8UserTierO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s10ChatistSdk8UserTierO4hash4intoys6HasherVz_tF",
-            "moduleName": "ChatistSdk",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UserTier",
-                "printedName": "ChatistSdk.UserTier",
-                "usr": "s:10ChatistSdk8UserTierO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UserTier",
-                "printedName": "ChatistSdk.UserTier",
-                "usr": "s:10ChatistSdk8UserTierO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10ChatistSdk8UserTierO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s10ChatistSdk8UserTierO2eeoiySbAC_ACtFZ",
-            "moduleName": "ChatistSdk",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:10ChatistSdk8UserTierO",
-        "mangledName": "$s10ChatistSdk8UserTierO",
-        "moduleName": "ChatistSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
         ]
       },
       {
@@ -7591,42 +5597,49 @@
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/Components\/AttachmentGridView.swift",
       "kind": "Array",
-      "offset": 959,
+      "offset": 979,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/Components\/AttachmentGridView.swift",
       "kind": "Array",
-      "offset": 1079,
+      "offset": 1099,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "Array",
-      "offset": 311,
+      "offset": 373,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
-      "offset": 466,
+      "offset": 525,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
-      "offset": 504,
+      "offset": 569,
+      "length": 2,
+      "value": "89"
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 606,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
-      "offset": 548,
+      "offset": 650,
       "length": 2,
       "value": "20"
     },
@@ -7948,51 +5961,9 @@
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Dictionary",
-      "offset": 4077,
+      "offset": 4094,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4959,
-      "length": 9,
-      "value": "\"general\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4983,
-      "length": 4,
-      "value": "\"ui\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5003,
-      "length": 5,
-      "value": "\"api\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5025,
-      "length": 6,
-      "value": "\"chat\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5056,
-      "length": 14,
-      "value": "\"notification\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5092,
-      "length": 11,
-      "value": "\"lifecycle\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Components\/ChatistBrandingView.swift",
@@ -8011,14 +5982,14 @@
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistNotificationView\/ChatistNotificationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 554,
+      "offset": 733,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistNotificationView\/ChatistNotificationView.swift",
       "kind": "Array",
-      "offset": 794,
+      "offset": 1088,
       "length": 2,
       "value": "[]"
     },
@@ -8198,30 +6169,37 @@
       "value": "\"\r\n\""
     },
     {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/NewTicketButton.swift",
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Components\/NewTicketButton.swift",
       "kind": "BooleanLiteral",
       "offset": 552,
       "length": 5,
       "value": "false"
     },
     {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/NotificationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ParallaxView\/ParallaxTableViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 639,
+      "offset": 632,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ParallaxView\/ParallaxTableViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 687,
+      "offset": 680,
       "length": 4,
       "value": "32.0"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ParallaxView\/ParallaxTableViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 938,
+      "offset": 917,
       "length": 1,
       "value": "0"
     },
@@ -8242,21 +6220,21 @@
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4889,
+      "offset": 4877,
       "length": 22,
       "value": "\"okbzgwe4pvzhay6j5dk8\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4949,
+      "offset": 4937,
       "length": 17,
       "value": "\"MessageReceived\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
       "kind": "StringLiteral",
-      "offset": 5011,
+      "offset": 4999,
       "length": 20,
       "value": "\"TicketStateChanged\""
     },
@@ -8338,51 +6316,9 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 126,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 177,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 227,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketData.swift",
-      "kind": "StringLiteral",
-      "offset": 269,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketData.swift",
-      "kind": "Array",
-      "offset": 406,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 455,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Model\/TicketDataSourceConfigurator.swift",
       "kind": "BooleanLiteral",
-      "offset": 4346,
+      "offset": 4785,
       "length": 4,
       "value": "true"
     },
@@ -8396,79 +6332,9 @@
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
       "kind": "StringLiteral",
-      "offset": 181,
+      "offset": 236,
       "length": 22,
       "value": "\"TicketErrorStateCell\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 323,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 441,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
-      "kind": "StringLiteral",
-      "offset": 592,
-      "length": 26,
-      "value": "\"exclamationmark.triangle\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 677,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 784,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
-      "kind": "StringLiteral",
-      "offset": 899,
-      "length": 22,
-      "value": "\"Something went wrong\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1113,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 1307,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1372,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1428,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Model\/TicketListDataSourceConfigurator.swift",
@@ -8487,14 +6353,14 @@
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/TicketListViewModel.swift",
       "kind": "Array",
-      "offset": 735,
+      "offset": 734,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/TicketListViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 871,
+      "offset": 870,
       "length": 3,
       "value": "1.0"
     },
@@ -8627,100 +6493,72 @@
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 7785,
+      "offset": 7986,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7807,
+      "offset": 8008,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8288,
+      "offset": 8489,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 358,
+      "offset": 320,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 400,
+      "offset": 362,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 453,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 506,
+      "offset": 415,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 569,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 656,
+      "offset": 456,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "Array",
-      "offset": 710,
+      "offset": 510,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1036,
+      "offset": 836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1135,
+      "offset": 935,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketsData.swift",
-      "kind": "Array",
-      "offset": 198,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/TicketsData.swift",
-      "kind": "FloatLiteral",
-      "offset": 346,
-      "length": 3,
-      "value": "1.0"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
