@@ -22,6 +22,25 @@
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
+			<string>ChatistSdk.framework/Versions/A/ChatistSdk</string>
+			<key>DebugSymbolsPath</key>
+			<string>dSYMs</string>
+			<key>LibraryIdentifier</key>
+			<string>ios-arm64_x86_64-maccatalyst</string>
+			<key>LibraryPath</key>
+			<string>ChatistSdk.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
+			<key>SupportedPlatformVariant</key>
+			<string>maccatalyst</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
 			<string>ChatistSdk.framework/ChatistSdk</string>
 			<key>DebugSymbolsPath</key>
 			<string>dSYMs</string>

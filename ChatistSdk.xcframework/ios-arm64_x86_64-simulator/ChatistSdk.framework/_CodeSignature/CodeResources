@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		QzE/oTcQybV9+Zh7CHlUGnjiPY8=
+		P/emu9tsbPnIlkyhDLZQYmy/75M=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rajfGU+e0NpFHcwVIl7R8TDyTmM=
+		Ii66UDMKiQJNhAKkgPHSKWHyacw=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		QzE/oTcQybV9+Zh7CHlUGnjiPY8=
+		P/emu9tsbPnIlkyhDLZQYmy/75M=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Bt9L5jjuEzm+TttxFU31yFzQs7M=
+		xZq/FZ8lNYU1d9FwbaPbkJ5PMXI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tNr7agrIgd8izWqLosLMz+fJHZU=
+			ANNOQ6YevnRrxV4l9Bg2PfGCD9A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			crmufaybl8mzqRhQTGXcS+nxhFcKQg/bb5IsvpVxYas=
+			kMQjAga4b5a3+UDIB6ucr70fxNm81t3Q6nmqhqZzDPk=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gNbtwiVgyR71ukWu1b2zMsdZ22Wr0VQ0G0nw88QoWrE=
+			HE5kJl6eX8tAwzzGmk3hf9C93NYCekIgpcmVgx8QDfI=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			crmufaybl8mzqRhQTGXcS+nxhFcKQg/bb5IsvpVxYas=
+			kMQjAga4b5a3+UDIB6ucr70fxNm81t3Q6nmqhqZzDPk=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rNWSKNQPGKM2QQWBLHOQewxvTEAPAHx4GUqZshEBWk8=
+			UFwpjIEZnhVG+uRrPq3Fx2fkQebYCf7ckpXJRMQ6gCE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -207,7 +207,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7dUKytJXVgGHB7Arp6xfIE1u6uISjOr0vTxyWaPRy2c=
+			Ja3FvrwzDrQAaw+XdnqMsujWr3lUylVXVlhjyB/0Gu4=
 			</data>
 			<key>optional</key>
 			<true/>

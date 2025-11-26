@@ -5611,37 +5611,51 @@
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "Array",
-      "offset": 373,
+      "offset": 529,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
-      "offset": 525,
+      "offset": 760,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
-      "offset": 569,
+      "offset": 804,
       "length": 2,
       "value": "89"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
-      "offset": 606,
+      "offset": 841,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
-      "offset": 650,
+      "offset": 885,
       "length": 2,
       "value": "20"
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 930,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 972,
+      "length": 3,
+      "value": "200"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Bundle+Ext.swift",
