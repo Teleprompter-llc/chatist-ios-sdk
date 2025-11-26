@@ -1,4 +1,0 @@
-framework module ChatistSdk {
-  header "ChatistSdk-Swift.h"
-  requires objc
-}

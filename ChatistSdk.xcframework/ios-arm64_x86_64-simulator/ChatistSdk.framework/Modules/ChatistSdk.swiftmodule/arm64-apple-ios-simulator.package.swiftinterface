@@ -35,7 +35,8 @@ import _SwiftConcurrencyShims
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func setAnalyticsDelegate(_ delegate: (any ChatistSdk.ChatistAnalyticsDelegate)?)
   #endif
-  @_Concurrency.MainActor public static func getUnreadMessagesCount() async -> Swift.Int
+  @_Concurrency.MainActor public static func getUnreadMessagesCount() -> Combine.AnyPublisher<Swift.Int, Swift.Never>
+  @_Concurrency.MainActor public static func refreshUnreadMessagesCount() async
   @_Concurrency.MainActor public static func observeNotifications() -> Combine.AnyPublisher<ChatistSdk.ChatistNotification, Swift.Never>
   @objc deinit
 }

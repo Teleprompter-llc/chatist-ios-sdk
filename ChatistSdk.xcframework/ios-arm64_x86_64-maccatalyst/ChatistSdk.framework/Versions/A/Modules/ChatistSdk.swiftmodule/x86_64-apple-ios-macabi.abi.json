@@ -572,14 +572,52 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Swift.Int, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10ChatistSdk0A0C22getUnreadMessagesCountSiyYaFZ",
-            "mangledName": "$s10ChatistSdk0A0C22getUnreadMessagesCountSiyYaFZ",
+            "usr": "s:10ChatistSdk0A0C22getUnreadMessagesCount7Combine12AnyPublisherVySis5NeverOGyFZ",
+            "mangledName": "$s10ChatistSdk0A0C22getUnreadMessagesCount7Combine12AnyPublisherVySis5NeverOGyFZ",
+            "moduleName": "ChatistSdk",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshUnreadMessagesCount",
+            "printedName": "refreshUnreadMessagesCount()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ChatistSdk0A0C26refreshUnreadMessagesCountyyYaFZ",
+            "mangledName": "$s10ChatistSdk0A0C26refreshUnreadMessagesCountyyYaFZ",
             "moduleName": "ChatistSdk",
             "static": true,
             "declAttributes": [
@@ -5243,10 +5281,13 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "ChatistSdk"
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -5266,6 +5307,30 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "ChatistSdk"
       },
@@ -6383,6 +6448,34 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 10,
+      "value": "\"customer\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 13,
+      "value": "\"human agent\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 10,
+      "value": "\"ai agent\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 8,
+      "value": "\"system\""
+    },
+    {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/Components\/SkeletonAvatarView.swift",
       "kind": "IntegerLiteral",
       "offset": 368,
@@ -6468,22 +6561,8 @@
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/TicketListViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 380,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/TicketListViewModel.swift",
-      "kind": "Array",
-      "offset": 734,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/TicketListViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 870,
+      "offset": 769,
       "length": 3,
       "value": "1.0"
     },
@@ -6782,6 +6861,27 @@
       "value": "2"
     },
     {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/UIDevice+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 192,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/UIDevice+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 220,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/UIDevice+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 247,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/URLRequest+Ext.swift",
       "kind": "StringLiteral",
       "offset": 58,
@@ -6815,6 +6915,13 @@
       "offset": 242,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/UnreadMessagesManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/UserDefaults+Ext.swift",
