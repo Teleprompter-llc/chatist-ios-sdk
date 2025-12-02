@@ -47,7 +47,7 @@ Chatist.initialize(key: "Your API Key")  // Replace with your actual API key
 
 ### 3. Push Notifications Configuration
 
-No Firebase configuration needed! The Chatist iOS SDK uses Apple Push Notification service (APNs) directly. Simply ensure your app has the proper push notification entitlements configured in Xcode.
+The Chatist iOS SDK uses Apple Push Notification service (APNs) directly. Simply ensure your app has the proper push notification entitlements configured in Xcode.
 
 ## 🚀 Core Implementation
 
@@ -69,9 +69,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ) -> Bool {
         // Enable SDK logging for debugging
         Chatist.enableLogging(true)
-
-        // Set environment (use .production for production builds)
-        Chatist.setEnvironment(.production)
 
         // Initialize the SDK with your API key
         Chatist.initialize(key: "Your API Key")

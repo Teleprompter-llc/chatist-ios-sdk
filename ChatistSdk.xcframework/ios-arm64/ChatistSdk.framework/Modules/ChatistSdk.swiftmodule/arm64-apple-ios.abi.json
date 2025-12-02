@@ -154,36 +154,6 @@
           },
           {
             "kind": "Function",
-            "name": "setEnvironment",
-            "printedName": "setEnvironment(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Environment",
-                "printedName": "ChatistSdk.Chatist.Environment",
-                "usr": "s:10ChatistSdk0A0C11EnvironmentO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10ChatistSdk0A0C14setEnvironmentyyAC0D0OFZ",
-            "mangledName": "$s10ChatistSdk0A0C14setEnvironmentyyAC0D0OFZ",
-            "moduleName": "ChatistSdk",
-            "static": true,
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "initialize",
             "printedName": "initialize(key:)",
             "children": [
@@ -3842,6 +3812,67 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "attachmentCount",
+            "printedName": "attachmentCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ChatistSdk0A12NotificationV15attachmentCountSiSgvp",
+            "mangledName": "$s10ChatistSdk0A12NotificationV15attachmentCountSiSgvp",
+            "moduleName": "ChatistSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ChatistSdk0A12NotificationV15attachmentCountSiSgvg",
+                "mangledName": "$s10ChatistSdk0A12NotificationV15attachmentCountSiSgvg",
+                "moduleName": "ChatistSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -4894,13 +4925,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5331,6 +5355,13 @@
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ChatistSdk"
       },
@@ -6318,6 +6349,62 @@
       "value": "\"TicketStateChanged\""
     },
     {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
+      "length": 14,
+      "value": "\"schedule-001\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 10,
+      "value": "\"09:00:00\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 10,
+      "value": "\"18:00:00\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "kind": "Array",
+      "offset": 323,
+      "length": 56,
+      "value": "[\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\"]"
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 14,
+      "value": "\"schedule-002\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 10,
+      "value": "\"10:00:00\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 10,
+      "value": "\"14:00:00\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "kind": "Array",
+      "offset": 498,
+      "length": 12,
+      "value": "[\"Saturday\"]"
+    },
+    {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/SdkData.swift",
       "kind": "BooleanLiteral",
       "offset": 114,
@@ -6806,6 +6893,34 @@
       "offset": 73,
       "length": 17,
       "value": "\"com.chatist.sdk\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/UserDto.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 19,
+      "value": "\"assignee-ai-agent\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/UserDto.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 10,
+      "value": "\"AI Agent\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/UserDto.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 22,
+      "value": "\"assignee-human-agent\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/UserDto.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 13,
+      "value": "\"Human Agent\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Library\/Developer\/Xcode\/DerivedData\/Chatist-eugmhbwouymyyufahlehqsdqrobu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SdkRelease\/IntermediateBuildFilesPath\/Chatist.build\/Release-iphoneos\/ChatistSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",

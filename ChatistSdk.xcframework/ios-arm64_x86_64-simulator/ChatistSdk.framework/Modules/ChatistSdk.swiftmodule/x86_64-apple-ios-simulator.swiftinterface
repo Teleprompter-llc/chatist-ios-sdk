@@ -19,7 +19,6 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class Chatist {
   @_Concurrency.MainActor public static func enableLogging(_ enabled: Swift.Bool)
-  @_Concurrency.MainActor public static func setEnvironment(_ environment: ChatistSdk.Chatist.Environment)
   @_Concurrency.MainActor public static func initialize(key: Swift.String)
   @_Concurrency.MainActor public static func login()
   @_Concurrency.MainActor public static func logout()
@@ -120,6 +119,7 @@ public struct ChatistNotification : Swift.Equatable {
   public let sender: Swift.String
   public let message: Swift.String
   public let avatarUrl: Swift.String?
+  public let attachmentCount: Swift.Int?
   public static func == (a: ChatistSdk.ChatistNotification, b: ChatistSdk.ChatistNotification) -> Swift.Bool
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ChatistNotificationView : UIKit.UIView {
