@@ -1518,54 +1518,9 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "environment",
-            "printedName": "environment",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk0A14AnalyticsEventV11environmentSSvp",
-            "mangledName": "$s10ChatistSdk0A14AnalyticsEventV11environmentSSvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk0A14AnalyticsEventV11environmentSSvg",
-                "mangledName": "$s10ChatistSdk0A14AnalyticsEventV11environmentSSvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(name:properties:timestamp:sdkVersion:customerId:originalCustomerId:environment:)",
+            "printedName": "init(name:properties:timestamp:sdkVersion:customerId:originalCustomerId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1641,17 +1596,11 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10ChatistSdk0A14AnalyticsEventV4name10properties9timestamp10sdkVersion10customerId016originalCustomerK011environmentACSS_SDySSypG10Foundation4DateVS2SSgAOSStcfc",
-            "mangledName": "$s10ChatistSdk0A14AnalyticsEventV4name10properties9timestamp10sdkVersion10customerId016originalCustomerK011environmentACSS_SDySSypG10Foundation4DateVS2SSgAOSStcfc",
+            "usr": "s:10ChatistSdk0A14AnalyticsEventV4name10properties9timestamp10sdkVersion10customerId016originalCustomerK0ACSS_SDySSypG10Foundation4DateVS2SSgANtcfc",
+            "mangledName": "$s10ChatistSdk0A14AnalyticsEventV4name10properties9timestamp10sdkVersion10customerId016originalCustomerK0ACSS_SDySSypG10Foundation4DateVS2SSgANtcfc",
             "moduleName": "ChatistSdk",
             "declAttributes": [
               "AccessControl"
@@ -3572,51 +3521,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "messageID",
-            "printedName": "messageID",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10ChatistSdk0A12NotificationV9messageIDSSvp",
-            "mangledName": "$s10ChatistSdk0A12NotificationV9messageIDSSvp",
-            "moduleName": "ChatistSdk",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10ChatistSdk0A12NotificationV9messageIDSSvg",
-                "mangledName": "$s10ChatistSdk0A12NotificationV9messageIDSSvg",
-                "moduleName": "ChatistSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "ticketID",
             "printedName": "ticketID",
             "children": [
@@ -3873,6 +3777,83 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(messageID:ticketID:sender:message:avatarUrl:attachmentCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChatistNotification",
+                "printedName": "ChatistSdk.ChatistNotification",
+                "usr": "s:10ChatistSdk0A12NotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ChatistSdk0A12NotificationV9messageID06ticketE06sender0D09avatarUrl15attachmentCountACSS_S4SSgSiSgtcfc",
+            "mangledName": "$s10ChatistSdk0A12NotificationV9messageID06ticketE06sender0D09avatarUrl15attachmentCountACSS_S4SSgSiSgtcfc",
+            "moduleName": "ChatistSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -3942,15 +3923,12 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "ChatistSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "ChatistSdk"
       },
       {
         "kind": "TypeDecl",
-        "name": "ChatistNotificationView",
-        "printedName": "ChatistNotificationView",
+        "name": "ChatistNotificationUIView",
+        "printedName": "ChatistNotificationUIView",
         "children": [
           {
             "kind": "Var",
@@ -3984,8 +3962,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10ChatistSdk0A16NotificationViewC5onTapyycSgvp",
-            "mangledName": "$s10ChatistSdk0A16NotificationViewC5onTapyycSgvp",
+            "usr": "s:10ChatistSdk0A18NotificationUIViewC5onTapyycSgvp",
+            "mangledName": "$s10ChatistSdk0A18NotificationUIViewC5onTapyycSgvp",
             "moduleName": "ChatistSdk",
             "declAttributes": [
               "HasInitialValue",
@@ -4029,8 +4007,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10ChatistSdk0A16NotificationViewC5onTapyycSgvg",
-                "mangledName": "$s10ChatistSdk0A16NotificationViewC5onTapyycSgvg",
+                "usr": "s:10ChatistSdk0A18NotificationUIViewC5onTapyycSgvg",
+                "mangledName": "$s10ChatistSdk0A18NotificationUIViewC5onTapyycSgvg",
                 "moduleName": "ChatistSdk",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4072,8 +4050,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10ChatistSdk0A16NotificationViewC5onTapyycSgvs",
-                "mangledName": "$s10ChatistSdk0A16NotificationViewC5onTapyycSgvs",
+                "usr": "s:10ChatistSdk0A18NotificationUIViewC5onTapyycSgvs",
+                "mangledName": "$s10ChatistSdk0A18NotificationUIViewC5onTapyycSgvs",
                 "moduleName": "ChatistSdk",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4090,8 +4068,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10ChatistSdk0A16NotificationViewC5onTapyycSgvM",
-                "mangledName": "$s10ChatistSdk0A16NotificationViewC5onTapyycSgvM",
+                "usr": "s:10ChatistSdk0A18NotificationUIViewC5onTapyycSgvM",
+                "mangledName": "$s10ChatistSdk0A18NotificationUIViewC5onTapyycSgvM",
                 "moduleName": "ChatistSdk",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4130,8 +4108,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10ChatistSdk0A16NotificationViewC7onCloseyycSgvp",
-            "mangledName": "$s10ChatistSdk0A16NotificationViewC7onCloseyycSgvp",
+            "usr": "s:10ChatistSdk0A18NotificationUIViewC7onCloseyycSgvp",
+            "mangledName": "$s10ChatistSdk0A18NotificationUIViewC7onCloseyycSgvp",
             "moduleName": "ChatistSdk",
             "declAttributes": [
               "HasInitialValue",
@@ -4175,8 +4153,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10ChatistSdk0A16NotificationViewC7onCloseyycSgvg",
-                "mangledName": "$s10ChatistSdk0A16NotificationViewC7onCloseyycSgvg",
+                "usr": "s:10ChatistSdk0A18NotificationUIViewC7onCloseyycSgvg",
+                "mangledName": "$s10ChatistSdk0A18NotificationUIViewC7onCloseyycSgvg",
                 "moduleName": "ChatistSdk",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4218,8 +4196,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10ChatistSdk0A16NotificationViewC7onCloseyycSgvs",
-                "mangledName": "$s10ChatistSdk0A16NotificationViewC7onCloseyycSgvs",
+                "usr": "s:10ChatistSdk0A18NotificationUIViewC7onCloseyycSgvs",
+                "mangledName": "$s10ChatistSdk0A18NotificationUIViewC7onCloseyycSgvs",
                 "moduleName": "ChatistSdk",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4236,8 +4214,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10ChatistSdk0A16NotificationViewC7onCloseyycSgvM",
-                "mangledName": "$s10ChatistSdk0A16NotificationViewC7onCloseyycSgvM",
+                "usr": "s:10ChatistSdk0A18NotificationUIViewC7onCloseyycSgvM",
+                "mangledName": "$s10ChatistSdk0A18NotificationUIViewC7onCloseyycSgvM",
                 "moduleName": "ChatistSdk",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4251,9 +4229,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ChatistNotificationView",
-                "printedName": "ChatistSdk.ChatistNotificationView",
-                "usr": "c:@M@ChatistSdk@objc(cs)ChatistNotificationView"
+                "name": "ChatistNotificationUIView",
+                "printedName": "ChatistSdk.ChatistNotificationUIView",
+                "usr": "c:@M@ChatistSdk@objc(cs)ChatistNotificationUIView"
               },
               {
                 "kind": "TypeNominal",
@@ -4315,8 +4293,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10ChatistSdk0A16NotificationViewC12notification5onTap0F5CloseAcA0aC0V_yycSgAItcfc",
-            "mangledName": "$s10ChatistSdk0A16NotificationViewC12notification5onTap0F5CloseAcA0aC0V_yycSgAItcfc",
+            "usr": "s:10ChatistSdk0A18NotificationUIViewC12notification5onTap0F5CloseAcA0aC0V_yycSgAItcfc",
+            "mangledName": "$s10ChatistSdk0A18NotificationUIViewC12notification5onTap0F5CloseAcA0aC0V_yycSgAItcfc",
             "moduleName": "ChatistSdk",
             "declAttributes": [
               "Preconcurrency",
@@ -4344,8 +4322,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10ChatistSdk0A16NotificationViewC06updateC0yyAA0aC0VF",
-            "mangledName": "$s10ChatistSdk0A16NotificationViewC06updateC0yyAA0aC0VF",
+            "usr": "s:10ChatistSdk0A18NotificationUIViewC06updateC0yyAA0aC0VF",
+            "mangledName": "$s10ChatistSdk0A18NotificationUIViewC06updateC0yyAA0aC0VF",
             "moduleName": "ChatistSdk",
             "declAttributes": [
               "Preconcurrency",
@@ -4362,9 +4340,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ChatistNotificationView",
-                "printedName": "ChatistSdk.ChatistNotificationView",
-                "usr": "c:@M@ChatistSdk@objc(cs)ChatistNotificationView"
+                "name": "ChatistNotificationUIView",
+                "printedName": "ChatistSdk.ChatistNotificationUIView",
+                "usr": "c:@M@ChatistSdk@objc(cs)ChatistNotificationUIView"
               },
               {
                 "kind": "TypeNominal",
@@ -4374,8 +4352,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ChatistSdk@objc(cs)ChatistNotificationView(im)initWithFrame:",
-            "mangledName": "$s10ChatistSdk0A16NotificationViewC5frameACSo6CGRectV_tcfc",
+            "usr": "c:@M@ChatistSdk@objc(cs)ChatistNotificationUIView(im)initWithFrame:",
+            "mangledName": "$s10ChatistSdk0A18NotificationUIViewC5frameACSo6CGRectV_tcfc",
             "moduleName": "ChatistSdk",
             "overriding": true,
             "implicit": true,
@@ -4391,8 +4369,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@ChatistSdk@objc(cs)ChatistNotificationView",
-        "mangledName": "$s10ChatistSdk0A16NotificationViewC",
+        "usr": "c:@M@ChatistSdk@objc(cs)ChatistNotificationUIView",
+        "mangledName": "$s10ChatistSdk0A18NotificationUIViewC",
         "moduleName": "ChatistSdk",
         "declAttributes": [
           "Preconcurrency",
@@ -4499,6 +4477,260 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChatistNotificationView",
+        "printedName": "ChatistNotificationView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(notification:onTap:onClose:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChatistNotificationView",
+                "printedName": "ChatistSdk.ChatistNotificationView",
+                "usr": "s:10ChatistSdk0A16NotificationViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChatistNotification",
+                "printedName": "ChatistSdk.ChatistNotification",
+                "usr": "s:10ChatistSdk0A12NotificationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ChatistSdk0A16NotificationViewV12notification5onTap0F5CloseAcA0aC0V_yycyyctcfc",
+            "mangledName": "$s10ChatistSdk0A16NotificationViewV12notification5onTap0F5CloseAcA0aC0V_yycyyctcfc",
+            "moduleName": "ChatistSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChatistNotificationUIView",
+                "printedName": "ChatistSdk.ChatistNotificationUIView",
+                "usr": "c:@M@ChatistSdk@objc(cs)ChatistNotificationUIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<ChatistSdk.ChatistNotificationView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatistNotificationView",
+                    "printedName": "ChatistSdk.ChatistNotificationView",
+                    "usr": "s:10ChatistSdk0A16NotificationViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ChatistSdk0A16NotificationViewV10makeUIView7contextAA0acF0C7SwiftUI0F20RepresentableContextVyACG_tF",
+            "mangledName": "$s10ChatistSdk0A16NotificationViewV10makeUIView7contextAA0acF0C7SwiftUI0F20RepresentableContextVyACG_tF",
+            "moduleName": "ChatistSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChatistNotificationUIView",
+                "printedName": "ChatistSdk.ChatistNotificationUIView",
+                "usr": "c:@M@ChatistSdk@objc(cs)ChatistNotificationUIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<ChatistSdk.ChatistNotificationView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatistNotificationView",
+                    "printedName": "ChatistSdk.ChatistNotificationView",
+                    "usr": "s:10ChatistSdk0A16NotificationViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ChatistSdk0A16NotificationViewV12updateUIView_7contextyAA0acF0C_7SwiftUI0F20RepresentableContextVyACGtF",
+            "mangledName": "$s10ChatistSdk0A16NotificationViewV12updateUIView_7contextyAA0acF0C_7SwiftUI0F20RepresentableContextVyACGtF",
+            "moduleName": "ChatistSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10ChatistSdk0A16NotificationViewV",
+        "mangledName": "$s10ChatistSdk0A16NotificationViewV",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatistNotificationUIView",
+                    "printedName": "ChatistSdk.ChatistNotificationUIView",
+                    "usr": "c:@M@ChatistSdk@objc(cs)ChatistNotificationUIView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4920,6 +5152,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ChatistSdk"
       },
@@ -5381,13 +5620,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5691,6 +5923,34 @@
       "value": "\"AITypingCell\""
     },
     {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/AssigneDto.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 19,
+      "value": "\"assignee-ai-agent\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/AssigneDto.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 10,
+      "value": "\"AI Agent\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/AssigneDto.swift",
+      "kind": "StringLiteral",
+      "offset": 391,
+      "length": 22,
+      "value": "\"assignee-human-agent\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/AssigneDto.swift",
+      "kind": "StringLiteral",
+      "offset": 425,
+      "length": 13,
+      "value": "\"Human Agent\""
+    },
+    {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/Components\/AttachmentGridView.swift",
       "kind": "Array",
       "offset": 979,
@@ -5770,252 +6030,252 @@
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "Dictionary",
-      "offset": 795,
+      "offset": 700,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1365,
+      "offset": 1211,
       "length": 25,
       "value": "\"chatist_sdk_initialized\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1429,
+      "offset": 1275,
       "length": 24,
       "value": "\"chatist_sdk_configured\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1494,
+      "offset": 1340,
       "length": 26,
       "value": "\"chatist_customer_updated\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1560,
+      "offset": 1406,
       "length": 26,
       "value": "\"chatist_device_token_set\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1473,
       "length": 26,
       "value": "\"chatist_settings_fetched\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1755,
+      "offset": 1601,
       "length": 21,
       "value": "\"chatist_chat_opened\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1808,
+      "offset": 1654,
       "length": 21,
       "value": "\"chatist_chat_closed\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1866,
+      "offset": 1712,
       "length": 22,
       "value": "\"chatist_message_sent\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1929,
+      "offset": 1775,
       "length": 26,
       "value": "\"chatist_message_received\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1995,
+      "offset": 1841,
       "length": 25,
       "value": "\"chatist_attachment_sent\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2059,
+      "offset": 1905,
       "length": 24,
       "value": "\"chatist_ticket_created\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2121,
+      "offset": 1967,
       "length": 23,
       "value": "\"chatist_ticket_viewed\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2257,
+      "offset": 2103,
       "length": 23,
       "value": "\"chatist_push_received\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2316,
+      "offset": 2162,
       "length": 21,
       "value": "\"chatist_push_tapped\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2376,
+      "offset": 2222,
       "length": 24,
       "value": "\"chatist_push_presented\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2495,
+      "offset": 2341,
       "length": 19,
       "value": "\"chatist_api_error\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2552,
+      "offset": 2398,
       "length": 23,
       "value": "\"chatist_network_error\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2619,
+      "offset": 2465,
       "length": 29,
       "value": "\"chatist_configuration_error\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2855,
+      "offset": 2701,
       "length": 11,
       "value": "\"ticket_id\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2901,
+      "offset": 2747,
       "length": 12,
       "value": "\"message_id\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2952,
+      "offset": 2798,
       "length": 16,
       "value": "\"message_length\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3009,
+      "offset": 2855,
       "length": 18,
       "value": "\"attachment_count\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3068,
+      "offset": 2914,
       "length": 18,
       "value": "\"attachment_types\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3126,
+      "offset": 2972,
       "length": 18,
       "value": "\"is_first_message\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3201,
+      "offset": 3047,
       "length": 12,
       "value": "\"error_code\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3251,
+      "offset": 3097,
       "length": 15,
       "value": "\"error_message\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3303,
+      "offset": 3149,
       "length": 14,
       "value": "\"error_domain\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3388,
+      "offset": 3234,
       "length": 19,
       "value": "\"notification_type\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3451,
+      "offset": 3297,
       "length": 21,
       "value": "\"notification_source\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3527,
+      "offset": 3373,
       "length": 13,
       "value": "\"screen_name\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3576,
+      "offset": 3422,
       "length": 13,
       "value": "\"action_type\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3623,
+      "offset": 3469,
       "length": 10,
       "value": "\"duration\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3693,
+      "offset": 3539,
       "length": 14,
       "value": "\"device_model\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3742,
+      "offset": 3588,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3790,
+      "offset": 3636,
       "length": 13,
       "value": "\"app_version\""
     },
@@ -6043,35 +6303,35 @@
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Dictionary",
-      "offset": 1886,
+      "offset": 1837,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Dictionary",
-      "offset": 2165,
+      "offset": 2116,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Dictionary",
-      "offset": 3210,
+      "offset": 3161,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Dictionary",
-      "offset": 3689,
+      "offset": 3640,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Dictionary",
-      "offset": 4094,
+      "offset": 4045,
       "length": 3,
       "value": "[]"
     },
@@ -6090,16 +6350,16 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistNotificationView\/ChatistNotificationView.swift",
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistNotificationView\/ChatistNotificationUIView.swift",
       "kind": "BooleanLiteral",
-      "offset": 733,
+      "offset": 636,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistNotificationView\/ChatistNotificationView.swift",
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistNotificationView\/ChatistNotificationUIView.swift",
       "kind": "Array",
-      "offset": 1088,
+      "offset": 991,
       "length": 2,
       "value": "[]"
     },
@@ -6424,6 +6684,34 @@
       "offset": 225,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderDto.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 17,
+      "value": "\"sender-ai-agent\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderDto.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 10,
+      "value": "\"AI Agent\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderDto.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 20,
+      "value": "\"sender-human-agent\""
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderDto.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 13,
+      "value": "\"Human Agent\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
@@ -6893,34 +7181,6 @@
       "offset": 73,
       "length": 17,
       "value": "\"com.chatist.sdk\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/UserDto.swift",
-      "kind": "StringLiteral",
-      "offset": 240,
-      "length": 19,
-      "value": "\"assignee-ai-agent\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/UserDto.swift",
-      "kind": "StringLiteral",
-      "offset": 271,
-      "length": 10,
-      "value": "\"AI Agent\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/UserDto.swift",
-      "kind": "StringLiteral",
-      "offset": 379,
-      "length": 22,
-      "value": "\"assignee-human-agent\""
-    },
-    {
-      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/UserDto.swift",
-      "kind": "StringLiteral",
-      "offset": 413,
-      "length": 13,
-      "value": "\"Human Agent\""
     },
     {
       "filePath": "\/Users\/kornelvarga\/Library\/Developer\/Xcode\/DerivedData\/Chatist-eugmhbwouymyyufahlehqsdqrobu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SdkRelease\/IntermediateBuildFilesPath\/Chatist.build\/Release-iphonesimulator\/ChatistSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",

@@ -308,8 +308,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 /// A view that displays an in-app notification for new chat messages.
 /// This view presents a banner-style notification with the sender’s avatar, name, and message preview.
-SWIFT_CLASS("_TtC10ChatistSdk23ChatistNotificationView")
-@interface ChatistNotificationView : UIView
+SWIFT_CLASS("_TtC10ChatistSdk25ChatistNotificationUIView")
+@interface ChatistNotificationUIView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
@@ -632,8 +632,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 /// A view that displays an in-app notification for new chat messages.
 /// This view presents a banner-style notification with the sender’s avatar, name, and message preview.
-SWIFT_CLASS("_TtC10ChatistSdk23ChatistNotificationView")
-@interface ChatistNotificationView : UIView
+SWIFT_CLASS("_TtC10ChatistSdk25ChatistNotificationUIView")
+@interface ChatistNotificationUIView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end

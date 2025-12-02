@@ -84,10 +84,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         return true
     }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        Task { await Chatist.refreshUnreadMessagesCount() }
-    }
 }
 ```
 
@@ -96,16 +92,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 - Establishing customer session with the backend
 - Associating the device with the customer
 - Accessing conversation history
-
-### Environment Configuration
-
-The SDK supports three environments:
-
-```swift
-Chatist.setEnvironment(.production)   // Production environment
-Chatist.setEnvironment(.development)  // Development environment
-Chatist.setEnvironment(.alpha)        // Alpha/staging environment
-```
 
 ### Main View Controller Implementation
 
@@ -117,7 +103,7 @@ import ChatistSdk
 import Combine
 
 class ViewController: UIViewController {
-    private var cancellables: Set<AnyCancellable> = []
+    private var cancellables = Set<AnyCancellable>()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -204,7 +190,7 @@ extension AppDelegate {
 Handle foreground and background notifications:
 
 ```swift
-extension AppDelegate: @preconcurrency UNUserNotificationCenterDelegate {
+extension AppDelegate: UNUserNotificationCenterDelegate {
     func userNotificationCenter(
         _ center: UNUserNotificationCenter,
         willPresent notification: UNNotification
@@ -243,17 +229,56 @@ The SDK intelligently handles notification presentation:
 
 ## 🔔 In-App Notifications
 
-Display beautiful in-app notification overlays when messages arrive while the app is active:
+Display in-app notification overlays when messages arrive while the app is active. The SDK provides both UIKit (`ChatistNotificationUIView`) and SwiftUI (`ChatistNotificationView`) components for a ready-to-use UI, or you can implement your own custom notification view using the `ChatistNotification` data.
 
-### Observing Notifications
+### SwiftUI Implementation
+
+```swift
+import SwiftUI
+import ChatistSdk
+
+struct ContentView: View {
+    @State private var notification: ChatistNotification?
+
+    var body: some View {
+        ZStack(alignment: .top) {
+            // Your main content
+            MainView()
+
+            if let notification {
+                ChatistNotificationView(
+                    notification: notification,
+                    onTap: {
+                        self.notification = nil
+                        Chatist.open(with: notification.ticketID)
+                    },
+                    onClose: {
+                        self.notification = nil
+                    }
+                )
+                .padding(.horizontal, 16)
+                .transition(.move(edge: .top).combined(with: .opacity))
+                .animation(.spring(), value: notification)
+            }
+        }
+        .onReceive(Chatist.observeNotifications()) { notification in
+            withAnimation {
+                self.notification = notification
+            }
+        }
+    }
+}
+```
+
+### UIKit Implementation
 
 ```swift
 import Combine
 import ChatistSdk
 
 class YourViewController: UIViewController {
-    private var cancellables: Set<AnyCancellable> = []
-    private var notificationView: ChatistNotificationView?
+    private var cancellables = Set<AnyCancellable>()
+    private var notificationView: ChatistNotificationUIView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -267,16 +292,19 @@ class YourViewController: UIViewController {
     }
 
     private func showNotification(_ notification: ChatistNotification) {
-        hideNotification()
+        // Remove any existing notification
+        notificationView?.removeFromSuperview()
 
-        let notificationView = ChatistNotificationView(
+        let notificationView = ChatistNotificationUIView(
             notification: notification,
             onTap: { [weak self] in
-                self?.hideNotification()
+                self?.notificationView?.removeFromSuperview()
+                self?.notificationView = nil
                 Chatist.open(with: notification.ticketID)
             },
             onClose: { [weak self] in
-                self?.hideNotification()
+                self?.notificationView?.removeFromSuperview()
+                self?.notificationView = nil
             }
         )
 
@@ -289,32 +317,6 @@ class YourViewController: UIViewController {
             notificationView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             notificationView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
         ])
-
-        // Animate in
-        notificationView.alpha = 0
-        notificationView.transform = CGAffineTransform(translationX: 0, y: -20)
-
-        UIView.animate(
-            withDuration: 0.3,
-            delay: 0,
-            usingSpringWithDamping: 0.8,
-            initialSpringVelocity: 0.5
-        ) {
-            notificationView.alpha = 1
-            notificationView.transform = .identity
-        }
-    }
-
-    private func hideNotification() {
-        guard let notificationView = notificationView else { return }
-
-        UIView.animate(withDuration: 0.2, animations: {
-            notificationView.alpha = 0
-            notificationView.transform = CGAffineTransform(translationX: 0, y: -20)
-        }, completion: { [weak self] _ in
-            notificationView.removeFromSuperview()
-            self?.notificationView = nil
-        })
     }
 }
 ```
@@ -325,20 +327,23 @@ The `ChatistNotification` struct contains:
 
 ```swift
 public struct ChatistNotification {
-    public let messageID: String      // Unique message identifier
-    public let ticketID: String       // Ticket identifier for deep linking
-    public let sender: String         // Sender's name
-    public let message: String        // Message content
-    public let avatarUrl: String?     // Optional sender avatar URL
+    public let ticketID: String        // Ticket identifier for deep linking
+    public let sender: String          // Sender's name
+    public let message: String         // Message content
+    public let avatarUrl: String?      // Optional sender avatar URL
+    public let attachmentCount: Int?   // Count of image attachments, if any
 }
 ```
 
 Features:
-- Smooth fade and slide animations
+- Available for both SwiftUI (`ChatistNotificationView`) and UIKit (`ChatistNotificationUIView`)
 - Themed according to Chatist branding
-- Shows sender avatar and message
-- Tap to open ticket
-- Manual dismiss option
+- Shows sender avatar with speech bubble mask
+- Displays sender name and message preview
+- Tap to open the specific conversation
+- Close button for manual dismissal
+- Animated press feedback on interaction
+- Glass effect on iOS 26.0+
 
 ## 📊 Customer Management
 
@@ -367,7 +372,7 @@ import Combine
 import ChatistSdk
 
 class YourViewController: UIViewController {
-    private var cancellables: Set<AnyCancellable> = []
+    private var cancellables = Set<AnyCancellable>()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -492,6 +497,10 @@ private func onUserLogout() {
     // Logout from Chatist SDK (stops notifications, clears data)
     Chatist.logout()
 
+    // Optionally, login again to continue using SDK anonymously
+    // This allows the user to still access support without being identified
+    Chatist.login()
+
     // Clear your app's user session
     clearUserSession()
     navigateToLoginScreen()
@@ -533,7 +542,6 @@ extension AppDelegate: ChatistAnalyticsDelegate {
         print("   SDK Version: \(event.sdkVersion)")
         print("   Customer ID: \(event.customerId ?? "nil")")
         print("   Original Customer ID: \(event.originalCustomerId ?? "nil")")
-        print("   Environment: \(event.environment)")
 
         // Forward to your analytics service
         Analytics.track(event.name, properties: event.properties)
@@ -615,7 +623,6 @@ let options = Chatist.willPresentNotification(userInfo)
 | Method | Description |
 |--------|-------------|
 | `Chatist.enableLogging(_ enabled: Bool)` | Enable or disable SDK logging |
-| `Chatist.setEnvironment(_ environment: Environment)` | Set environment (.production, .development, .alpha) |
 | `Chatist.initialize(key: String)` | Initialize SDK with API key (required) |
 
 ### Session Management
@@ -661,29 +668,32 @@ let options = Chatist.willPresentNotification(userInfo)
 |--------|-------------|
 | `Chatist.setAnalyticsDelegate(_ delegate: ChatistAnalyticsDelegate?)` | Set analytics delegate to receive SDK events |
 
-### ChatistNotificationView (UIKit Component)
+### ChatistNotificationUIView (UIKit Component)
 
 | Initializer | Description |
 |-------------|-------------|
-| `ChatistNotificationView(notification: ChatistNotification, onTap: (() -> Void)?, onClose: (() -> Void)?)` | Create in-app notification view with tap and close handlers |
+| `ChatistNotificationUIView(notification: ChatistNotification, onTap: (() -> Void)?, onClose: (() -> Void)?)` | Create in-app notification view with tap and close handlers |
+
+### ChatistNotificationView (SwiftUI Component)
+
+| Initializer | Description |
+|-------------|-------------|
+| `ChatistNotificationView(notification: ChatistNotification, onTap: @escaping () -> Void, onClose: @escaping () -> Void)` | Create SwiftUI in-app notification view with tap and close handlers |
 
 ## 📝 Important Notes
 
 - **SDK Initialization**: Must be called before using any SDK features, preferably in `Application.didFinishLaunchingWithOptions`
 - **Customer Login**: Required before opening the chat UI to enable notifications and session management
 - **Thread Safety**: All SDK methods are thread-safe and can be called from any thread
-- **APNs**: No Firebase configuration needed - SDK uses Apple Push Notification service directly
+- **APNs**: SDK uses Apple Push Notification service directly
 - **Foreground Refresh**: Always call `refreshUnreadMessagesCount()` in `applicationWillEnterForeground` or `sceneWillEnterForeground`
 - **Combine**: The SDK uses Combine framework for reactive updates
-- **Documentation**: Every public class in the SDK is well documented with inline documentation
 
 ## 🔐 Security Considerations
 
-- Store API keys securely; consider using build configurations for different environments
-- Use appropriate code obfuscation for production builds
-- Implement proper user authentication before calling `Chatist.login()`
+- Store API keys securely
+- The SDK can be used anonymously by calling `Chatist.login()` without `Chatist.updateCustomer()`, or with identified users by also calling `Chatist.updateCustomer()`
 - Clear customer data on logout using `Chatist.logout()`
-- Enable push notification entitlements only for necessary capabilities
 
 ## 🆘 Support
 

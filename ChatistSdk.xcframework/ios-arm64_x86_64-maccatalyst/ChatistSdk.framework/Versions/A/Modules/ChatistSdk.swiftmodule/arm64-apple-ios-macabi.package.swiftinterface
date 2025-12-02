@@ -60,9 +60,8 @@ public struct ChatistAnalyticsEvent {
   public let sdkVersion: Swift.String
   public let customerId: Swift.String?
   public let originalCustomerId: Swift.String?
-  public let environment: Swift.String
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(name: Swift.String, properties: [Swift.String : Any] = [:], timestamp: Foundation.Date = Date(), sdkVersion: Swift.String, customerId: Swift.String? = nil, originalCustomerId: Swift.String? = nil, environment: Swift.String)
+  public init(name: Swift.String, properties: [Swift.String : Any] = [:], timestamp: Foundation.Date = Date(), sdkVersion: Swift.String, customerId: Swift.String? = nil, originalCustomerId: Swift.String? = nil)
   #endif
 }
 extension ChatistSdk.ChatistAnalyticsEvent {
@@ -115,15 +114,17 @@ extension ChatistSdk.ChatistAnalyticsEvent {
   }
 }
 public struct ChatistNotification : Swift.Equatable {
-  public let messageID: Swift.String
   public let ticketID: Swift.String
   public let sender: Swift.String
   public let message: Swift.String
   public let avatarUrl: Swift.String?
   public let attachmentCount: Swift.Int?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(messageID: Swift.String = UUID().uuidString, ticketID: Swift.String = UUID().uuidString, sender: Swift.String, message: Swift.String, avatarUrl: Swift.String? = nil, attachmentCount: Swift.Int? = nil)
+  #endif
   public static func == (a: ChatistSdk.ChatistNotification, b: ChatistSdk.ChatistNotification) -> Swift.Bool
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ChatistNotificationView : UIKit.UIView {
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ChatistNotificationUIView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public var onTap: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var onClose: (() -> Swift.Void)?
   #if compiler(>=5.3) && $NonescapableTypes
@@ -131,6 +132,14 @@ public struct ChatistNotification : Swift.Equatable {
   #endif
   @objc deinit
   @_Concurrency.MainActor @preconcurrency public func updateNotification(_ notification: ChatistSdk.ChatistNotification)
+}
+@_Concurrency.MainActor @preconcurrency public struct ChatistNotificationView : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public init(notification: ChatistSdk.ChatistNotification, onTap: @escaping () -> Swift.Void, onClose: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: ChatistSdk.ChatistNotificationView.Context) -> ChatistSdk.ChatistNotificationUIView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: ChatistSdk.ChatistNotificationUIView, context: ChatistSdk.ChatistNotificationView.Context)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+  public typealias UIViewType = ChatistSdk.ChatistNotificationUIView
 }
 extension ChatistSdk.Chatist {
   @frozen public enum Environment : Swift.String {
@@ -154,6 +163,7 @@ extension Foundation.URL : @retroactive Swift.Identifiable {
   public typealias ID = Foundation.URL
 }
 extension ChatistSdk.Chatist : Swift.Sendable {}
+extension ChatistSdk.ChatistNotificationView : Swift.Sendable {}
 extension ChatistSdk.Chatist.Environment : Swift.Equatable {}
 extension ChatistSdk.Chatist.Environment : Swift.Hashable {}
 extension ChatistSdk.Chatist.Environment : Swift.RawRepresentable {}

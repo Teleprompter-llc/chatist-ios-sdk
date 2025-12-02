@@ -1,0 +1,15 @@
+{
+  "originHash" : "3316c6133b64b78f9b8971be1715253bc72ad819545c8f569ee974f9573d22d4",
+  "pins" : [
+    {
+      "identity" : "chatist-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:Teleprompter-llc/chatist-ios-sdk.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9976be2e25860fdebc91c632feef6b5d338ecc79"
+      }
+    }
+  ],
+  "version" : 3
+}
