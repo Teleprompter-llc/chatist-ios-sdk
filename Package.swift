@@ -5,8 +5,8 @@ import PackageDescription
 let package = Package(
   name: "ChatistSdk",
   platforms: [
-    .iOS(.v17),
-    .macOS(.v14),
+    .iOS(.v14),
+    .macCatalyst(.v14)
   ],
   products: [
     .library(
@@ -21,4 +21,4 @@ let package = Package(
     )
   ],
   swiftLanguageModes: [.v6]
-) 
+)

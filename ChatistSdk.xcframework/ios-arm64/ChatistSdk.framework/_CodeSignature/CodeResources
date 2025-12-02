@@ -4,59 +4,51 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>APIClient.md</key>
+		<key>Assets.car</key>
 		<data>
-		1gBzZcN1XIrwNDpKLh+rLRJNgr8=
-		</data>
-		<key>FollowUpActions.md</key>
-		<data>
-		5TRnvsT8Nd68YJsHm7BKXdXQOvw=
+		rmT9R+UUXz5J+NH+ZS4fIL4d44k=
 		</data>
 		<key>Headers/ChatistSdk-Swift.h</key>
 		<data>
-		7LhmIEpS1HNBbqdUZB6dMuEYKGc=
+		VglrQ2flfv9TcCrKntaKMUvG8zY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		y1gdLCaxddIhJj/jRhdf1uk7FTU=
+		TGvHx06mNIvk8ZSoeObpsQhzoyM=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		CRM8HqSnFJAZx0gFiLNDDqcBV5U=
+		7uHik4gtpdRJZAQ2l9aGE/wUhto=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<data>
-		qqNKbY2Vja+JkdYZLnED+AVHX6g=
+		5XBF3mTsMEAOjKFj547/c8r4cmQ=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		qqNKbY2Vja+JkdYZLnED+AVHX6g=
+		5XBF3mTsMEAOjKFj547/c8r4cmQ=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		lPi41ComXV0pe9dJVcMDN9EXo5Q=
+		MkWBWYLZttFXAdXMFl9RY0pxYRk=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		qqNKbY2Vja+JkdYZLnED+AVHX6g=
+		5XBF3mTsMEAOjKFj547/c8r4cmQ=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		itiw+yNXIHn0QBB3t5r/vt8QMvU=
+		Q1biSUeDkLoNCQtdDw4YgZFkqHA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		zMYF9Kzr32XEk6z3uyQMZxizwxs=
 		</data>
-		<key>UIComponents.md</key>
-		<data>
-		M9CkrHEbVPa/r6Gh/fEX4YClb/M=
-		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SIo0agpDEdi9Wma3EpmK8ulsy+g=
+			QahYipkf5tKM1kUdgFjFAoUXiyg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -65,7 +57,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tNr7agrIgd8izWqLosLMz+fJHZU=
+			ANNOQ6YevnRrxV4l9Bg2PfGCD9A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -73,67 +65,60 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>APIClient.md</key>
+		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			boNfl+APQ/qbmZYB8zO6G2agHWVV3RVKEDbd78tT5NA=
-			</data>
-		</dict>
-		<key>FollowUpActions.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Nr2C+Qbv2ayGqn4QN0eqWanBDxDXDxPKSp4egf1UbYc=
+			HKAT7DL5JMbX6PjJEfgamYPuMVZ9AUQ2K6SAnBfNMNA=
 			</data>
 		</dict>
 		<key>Headers/ChatistSdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XvtjNUROnWpg+JhEj+iqQ42Bao1/neJE9YDTaO2Qo/s=
+			gcQj8VYNnWtEjDhWGmBvyizitGa1XuUa+nR0fK/m4K4=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FCAzAYpYfBtUCMXnAxwXlqCjDbVEWMMzZa+fUYJSAVw=
+			ko39KcvxHXixFQzXv9isi6BvWMuelKBMHZLpdpo0R7M=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sM20BWJoGM/cHW4BA/iPAULzfdY0eKe7p5M86QrwKA8=
+			7/IjKyQggayhV90EP6KarC366M1cT75sD3RJo1IHAzw=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sM20BWJoGM/cHW4BA/iPAULzfdY0eKe7p5M86QrwKA8=
+			7/IjKyQggayhV90EP6KarC366M1cT75sD3RJo1IHAzw=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BZTjJbQSlU1Y8g/srEkwzbtbhMGa/t6jsJHzWUejpQs=
+			4HT8bZkAbAzPII8dfcAYc5zC8vGkcJyZxDzBhqnyjcc=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sM20BWJoGM/cHW4BA/iPAULzfdY0eKe7p5M86QrwKA8=
+			7/IjKyQggayhV90EP6KarC366M1cT75sD3RJo1IHAzw=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5I9EWmoP4EHOePrgEY0J+1FkBcm08+E/E5I3/FNk4RA=
+			LwdlcNgo35/L3zCOuI7vkXD6hS0MqlogZNFnmse83Tc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -143,18 +128,11 @@
 			AHyiCZAMfku/FByM1l59T6k5+f2+s0VSj35J+0mm6uY=
 			</data>
 		</dict>
-		<key>UIComponents.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sei++pT/hF3iBTD5zZD6zxjCDs3O/YzBbGSBb2eBv5o=
-			</data>
-		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aH8PVTq1zTRwKFVg9INPjorZbiUdDx73N62iB/64ZLI=
+			h8s//NrVhFsCMMmxRBjQIo/zIsnVtU/nNTcO0MGrIE0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -163,7 +141,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7dUKytJXVgGHB7Arp6xfIE1u6uISjOr0vTxyWaPRy2c=
+			Ja3FvrwzDrQAaw+XdnqMsujWr3lUylVXVlhjyB/0Gu4=
 			</data>
 			<key>optional</key>
 			<true/>
