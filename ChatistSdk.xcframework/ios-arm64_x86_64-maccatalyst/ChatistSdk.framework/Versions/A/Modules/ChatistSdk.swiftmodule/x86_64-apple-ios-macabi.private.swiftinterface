@@ -38,6 +38,7 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor public static func getUnreadMessagesCount() -> Combine.AnyPublisher<Swift.Int, Swift.Never>
   @_Concurrency.MainActor public static func refreshUnreadMessagesCount() async
   @_Concurrency.MainActor public static func observeNotifications() -> Combine.AnyPublisher<ChatistSdk.ChatistNotification, Swift.Never>
+  @_Concurrency.MainActor public static func observeLifecycle() -> Combine.AnyPublisher<ChatistSdk.ChatistLifecycleState, Swift.Never>
   @objc deinit
 }
 @_Concurrency.MainActor public protocol ChatistAnalyticsDelegate : AnyObject {
@@ -113,6 +114,15 @@ extension ChatistSdk.ChatistAnalyticsEvent {
     public static let appVersion: Swift.String
   }
 }
+public enum ChatistLifecycleState : Swift.Equatable, Swift.Sendable {
+  case opened
+  case closed
+  public static func == (a: ChatistSdk.ChatistLifecycleState, b: ChatistSdk.ChatistLifecycleState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct ChatistNotification : Swift.Equatable {
   public let ticketID: Swift.String
   public let sender: Swift.String
@@ -166,6 +176,7 @@ extension Foundation.URL : @retroactive Swift.Identifiable {
   public typealias ID = Foundation.URL
 }
 extension ChatistSdk.Chatist : Swift.Sendable {}
+extension ChatistSdk.ChatistLifecycleState : Swift.Hashable {}
 extension ChatistSdk.ChatistNotificationView : Swift.Sendable {}
 extension ChatistSdk.Chatist.Environment : Swift.Equatable {}
 extension ChatistSdk.Chatist.Environment : Swift.Hashable {}

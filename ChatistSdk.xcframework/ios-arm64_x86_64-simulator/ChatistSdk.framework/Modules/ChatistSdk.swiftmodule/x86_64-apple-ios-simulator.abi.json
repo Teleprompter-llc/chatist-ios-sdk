@@ -638,6 +638,45 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "observeLifecycle",
+            "printedName": "observeLifecycle()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<ChatistSdk.ChatistLifecycleState, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatistLifecycleState",
+                    "printedName": "ChatistSdk.ChatistLifecycleState",
+                    "usr": "s:10ChatistSdk0A14LifecycleStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ChatistSdk0A0C16observeLifecycle7Combine12AnyPublisherVyAA0aD5StateOs5NeverOGyFZ",
+            "mangledName": "$s10ChatistSdk0A0C16observeLifecycle7Combine12AnyPublisherVyAA0aD5StateOs5NeverOGyFZ",
+            "moduleName": "ChatistSdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "TypeDecl",
             "name": "Environment",
             "printedName": "Environment",
@@ -3496,6 +3535,248 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChatistLifecycleState",
+        "printedName": "ChatistLifecycleState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "opened",
+            "printedName": "opened",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ChatistSdk.ChatistLifecycleState.Type) -> ChatistSdk.ChatistLifecycleState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatistLifecycleState",
+                    "printedName": "ChatistSdk.ChatistLifecycleState",
+                    "usr": "s:10ChatistSdk0A14LifecycleStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ChatistSdk.ChatistLifecycleState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatistLifecycleState",
+                        "printedName": "ChatistSdk.ChatistLifecycleState",
+                        "usr": "s:10ChatistSdk0A14LifecycleStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10ChatistSdk0A14LifecycleStateO6openedyA2CmF",
+            "mangledName": "$s10ChatistSdk0A14LifecycleStateO6openedyA2CmF",
+            "moduleName": "ChatistSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closed",
+            "printedName": "closed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ChatistSdk.ChatistLifecycleState.Type) -> ChatistSdk.ChatistLifecycleState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatistLifecycleState",
+                    "printedName": "ChatistSdk.ChatistLifecycleState",
+                    "usr": "s:10ChatistSdk0A14LifecycleStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ChatistSdk.ChatistLifecycleState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatistLifecycleState",
+                        "printedName": "ChatistSdk.ChatistLifecycleState",
+                        "usr": "s:10ChatistSdk0A14LifecycleStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10ChatistSdk0A14LifecycleStateO6closedyA2CmF",
+            "mangledName": "$s10ChatistSdk0A14LifecycleStateO6closedyA2CmF",
+            "moduleName": "ChatistSdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ChatistSdk0A14LifecycleStateO9hashValueSivp",
+            "mangledName": "$s10ChatistSdk0A14LifecycleStateO9hashValueSivp",
+            "moduleName": "ChatistSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ChatistSdk0A14LifecycleStateO9hashValueSivg",
+                "mangledName": "$s10ChatistSdk0A14LifecycleStateO9hashValueSivg",
+                "moduleName": "ChatistSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ChatistSdk0A14LifecycleStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10ChatistSdk0A14LifecycleStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "ChatistSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChatistLifecycleState",
+                "printedName": "ChatistSdk.ChatistLifecycleState",
+                "usr": "s:10ChatistSdk0A14LifecycleStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChatistLifecycleState",
+                "printedName": "ChatistSdk.ChatistLifecycleState",
+                "usr": "s:10ChatistSdk0A14LifecycleStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ChatistSdk0A14LifecycleStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10ChatistSdk0A14LifecycleStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "ChatistSdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10ChatistSdk0A14LifecycleStateO",
+        "mangledName": "$s10ChatistSdk0A14LifecycleStateO",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4917,6 +5198,20 @@
         "kind": "Import",
         "name": "Photos",
         "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ChatistSdk"
       },
@@ -6478,6 +6773,13 @@
       "offset": 762,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/LifecycleManager.swift",
+      "kind": "Array",
+      "offset": 369,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/kornelvarga\/Developer\/chatist\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/LoadingButton.swift",

@@ -345,6 +345,85 @@ Features:
 - Animated press feedback on interaction
 - Glass effect on iOS 26.0+
 
+## 🔄 Lifecycle Observation
+
+Monitor when the Chatist chat interface is opened or closed by subscribing to lifecycle state changes. This allows you to react to user interactions with the chat UI, such as pausing background tasks when the chat is open or refreshing data when it closes.
+
+### SwiftUI Implementation
+
+```swift
+import SwiftUI
+import ChatistSdk
+import Combine
+
+struct ContentView: View {
+    @State private var isChatOpen = false
+
+    var body: some View {
+        VStack {
+            Text(isChatOpen ? "Chat is Open" : "Chat is Closed")
+                .font(.headline)
+
+            Button("Open Chat") {
+                Chatist.open()
+            }
+        }
+        .onReceive(Chatist.observeLifecycle()) { state in
+            switch state {
+            case .opened:
+                print("Chat opened")
+                isChatOpen = true
+            case .closed:
+                print("Chat closed")
+                isChatOpen = false
+            }
+        }
+    }
+}
+```
+
+### UIKit Implementation
+
+```swift
+import Combine
+import ChatistSdk
+
+class YourViewController: UIViewController {
+    private var cancellables = Set<AnyCancellable>()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        Chatist.observeLifecycle()
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] state in
+                self?.handleLifecycleChange(state)
+            }
+            .store(in: &cancellables)
+    }
+
+    private func handleLifecycleChange(_ state: ChatistLifecycleState) {
+        switch state {
+        case .opened:
+            print("Chat opened")
+        case .closed:
+            print("Chat closed")
+        }
+    }
+}
+```
+
+### ChatistLifecycleState
+
+The `ChatistLifecycleState` enum represents the current state of the chat interface:
+
+```swift
+public enum ChatistLifecycleState {
+    case opened  // Chat interface is visible
+    case closed  // Chat interface is closed
+}
+```
+
 ## 📊 Customer Management
 
 Update customer information after authentication:
@@ -661,6 +740,12 @@ let options = Chatist.willPresentNotification(userInfo)
 | Method | Description |
 |--------|-------------|
 | `Chatist.observeNotifications() -> AnyPublisher<ChatistNotification, Never>` | Subscribe to in-app notification events via Combine |
+
+### Lifecycle Observation
+
+| Method | Description |
+|--------|-------------|
+| `Chatist.observeLifecycle() -> AnyPublisher<ChatistLifecycleState, Never>` | Subscribe to chat interface lifecycle events via Combine |
 
 ### Analytics
 
