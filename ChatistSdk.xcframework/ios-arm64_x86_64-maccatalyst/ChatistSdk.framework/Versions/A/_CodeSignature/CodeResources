@@ -6,17 +6,17 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		BjhEwevriim25Cf7aNAz2QspC08=
+		476f1yoqBrUW1OGXLxNmtI/q/DQ=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		YCYY62ItCSm0s1FCGrKNOok1FA8=
+		6qDpkRGN5YZrDozkVEq578RI+es=
 		</data>
 		<key>Resources/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J+qeGMQ4ZamneMDMYJfl45fMKwQ=
+			/vfWeWhV8mng50OKMUyHQtoJc/c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -37,91 +37,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IMLgp+AiOyOJnJTMRAySRApFOG4tylmarboupu6DmHw=
+			aJuEmkC13GauEgjEmfSOtbszHJBejkgg/K/qUIeMiK0=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			atuqrdJWdKAhd5uR36pH1khq9L58icZGaAtwbKn3D4Q=
+			bIp8IL7+1yMUXpTnrq1PBeRe6Q5CtRZol5pEtJ9N/CE=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-macabi.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/3TTru0ftDTNbsdSEnAtlF7gghciKKYkRzyCH5hJMQ4=
+			DK9N3o/QWo+VQfEOb+7dfyztB1gyzIBCXeTjGcciX8Q=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/3TTru0ftDTNbsdSEnAtlF7gghciKKYkRzyCH5hJMQ4=
+			DK9N3o/QWo+VQfEOb+7dfyztB1gyzIBCXeTjGcciX8Q=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5FeZjEhXz6/+NPGkwq60RtTS4K2gExA79u7nwaepKc0=
+			SKl+eCzd1XYSX7TXwYv4CYIzzRFg0ju+V9qM8LfVu7I=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/3TTru0ftDTNbsdSEnAtlF7gghciKKYkRzyCH5hJMQ4=
+			DK9N3o/QWo+VQfEOb+7dfyztB1gyzIBCXeTjGcciX8Q=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mBFLFz9foTSUiEsh9pVOzQUbYFKQZjnuDS8bJERM0iY=
+			uHTtCTeqfq41JVlk8GCnuc1FpAdPtOuWl9HcRMHnei4=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			atuqrdJWdKAhd5uR36pH1khq9L58icZGaAtwbKn3D4Q=
+			bIp8IL7+1yMUXpTnrq1PBeRe6Q5CtRZol5pEtJ9N/CE=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yiKBIkdrvu67Tkpt1cd9A3gKG+A3tG9RMg9GE91ofm8=
+			KUw/RM8Ng8Yq6O/zglbkdhge3ZEF7vckEHcYkVDFw00=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yiKBIkdrvu67Tkpt1cd9A3gKG+A3tG9RMg9GE91ofm8=
+			KUw/RM8Ng8Yq6O/zglbkdhge3ZEF7vckEHcYkVDFw00=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nYsCFaYRyK1qeJv7YL+XsRi0VYa+nizbIFCTC0IDZYg=
+			UTMRhjQIWcjgeiluGAhrC53DXcYalqxEV447m/nCUQk=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yiKBIkdrvu67Tkpt1cd9A3gKG+A3tG9RMg9GE91ofm8=
+			KUw/RM8Ng8Yq6O/zglbkdhge3ZEF7vckEHcYkVDFw00=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FXgkrrVp0hRcb4+x7DIqRdTBL3xx55xUwkeqK3R7zy4=
+			aQtZhO2zBwCbpWaTiwZAHLHmSsO1Xem+VDPTPuyJifw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -135,21 +135,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DTTV/kSJiEEa2hUFau/TW5WmDkFR7iLyKVAGlB0OtLU=
+			gZUuGonRz6ps3kWTXil0g6kKuoCKjr7T40S7vyZeZaM=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2+3ZL3u/hxWLg0uQgbUUYj4RaEeGreRaBaTc9Ay3wx8=
+			eWIEINq+OCcMY8j1P7ZrLraPkKNTgvqDW0fXikjFtgk=
 			</data>
 		</dict>
 		<key>Resources/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t8NzaiNKrgSpVP3FBkPvCf2OXArVy5VRrccWf273aaU=
+			LSoQBGcg00O4AUAJq03xUK5mgkD8XFaqBGqgsdCsDMc=
 			</data>
 			<key>optional</key>
 			<true/>

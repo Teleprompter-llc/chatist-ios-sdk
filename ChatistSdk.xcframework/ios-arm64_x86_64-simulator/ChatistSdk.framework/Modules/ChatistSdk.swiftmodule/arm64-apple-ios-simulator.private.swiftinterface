@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ChatistSdk -package-name ChatistSdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import Combine
 import CoreGraphics
 import DeveloperToolsSupport
@@ -166,6 +166,31 @@ extension ChatistSdk.Chatist {
       get
     }
   }
+}
+@available(iOS 15.0, *)
+public struct MarkdownRenderResult : Swift.Sendable {
+  public var text: Foundation.AttributedString
+  public var images: [ChatistSdk.MarkdownImage]
+}
+@available(iOS 15.0, *)
+public struct MarkdownImage : Swift.Identifiable, Swift.Hashable, Swift.Sendable {
+  public let id: Foundation.UUID
+  public let url: Foundation.URL
+  public let alt: Swift.String
+  public let title: Swift.String?
+  public static func == (a: ChatistSdk.MarkdownImage, b: ChatistSdk.MarkdownImage) -> Swift.Bool
+  @available(iOS 15.0, *)
+  public typealias ID = Foundation.UUID
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@available(iOS 15.0, *)
+public struct MarkdownAttributedStringRenderer {
+  public init()
+  public func render(_ markdown: Swift.String) -> Foundation.AttributedString
+  public func renderWithImages(_ markdown: Swift.String) -> ChatistSdk.MarkdownRenderResult
 }
 extension Foundation.URL : @retroactive Swift.Identifiable {
   public var id: Foundation.URL {
