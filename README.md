@@ -18,7 +18,7 @@ This is a comprehensive example iOS application demonstrating the integration an
 - Mac Catalyst 14.0+
 - Swift 6.0+
 - Xcode 16+
-- Chatist SDK: 1.0.1+
+- Chatist SDK: 1.0.4+
 
 ## 🔧 Setup
 
@@ -28,14 +28,14 @@ The Chatist iOS SDK is available via Swift Package Manager. Add the dependency t
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Teleprompter-llc/chatist-ios-sdk.git", .upToNextMajor(from: "1.0.1"))
+    .package(url: "https://github.com/Teleprompter-llc/chatist-ios-sdk.git", .upToNextMajor(from: "1.0.4"))
 ]
 ```
 
 Or add it through Xcode:
 1. File → Add Package Dependencies
 2. Enter the repository URL: `https://github.com/Teleprompter-llc/chatist-ios-sdk.git`
-3. Select version: 1.0.1 or later
+3. Select version: 1.0.4 or later
 
 ### 2. API Key Configuration
 

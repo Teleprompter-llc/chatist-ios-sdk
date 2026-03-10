@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		476f1yoqBrUW1OGXLxNmtI/q/DQ=
+		UZn0KCU090hpB32UjabCbPurUHs=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		6qDpkRGN5YZrDozkVEq578RI+es=
+		iTfT+NR2KYpsVoMMqBJpjCvUjm0=
 		</data>
 		<key>Resources/en.lproj/Localizable.strings</key>
 		<dict>
@@ -37,91 +37,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aJuEmkC13GauEgjEmfSOtbszHJBejkgg/K/qUIeMiK0=
+			jmNsw8bVOeVKJua0xHsydbFMhDoSDssMXnZkNpoW3sw=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bIp8IL7+1yMUXpTnrq1PBeRe6Q5CtRZol5pEtJ9N/CE=
+			3sDudlzaGo4jZoPsk0Lx/LvRSZPEsRs9dmAxa5Ks15k=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-macabi.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DK9N3o/QWo+VQfEOb+7dfyztB1gyzIBCXeTjGcciX8Q=
+			OF2aalU12JTEaUaXN+TlLnqJRNuyt1DZhxjwkrk5dxM=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DK9N3o/QWo+VQfEOb+7dfyztB1gyzIBCXeTjGcciX8Q=
+			OF2aalU12JTEaUaXN+TlLnqJRNuyt1DZhxjwkrk5dxM=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SKl+eCzd1XYSX7TXwYv4CYIzzRFg0ju+V9qM8LfVu7I=
+			A+hnp7QOC0oaMtBiAQ/RLYpto0yGzu0IKxaIId+Hrh4=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DK9N3o/QWo+VQfEOb+7dfyztB1gyzIBCXeTjGcciX8Q=
+			GT0O3rJ/n58ZzDe5COeikYufrU43t4w1yTG8Fw9XixM=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uHTtCTeqfq41JVlk8GCnuc1FpAdPtOuWl9HcRMHnei4=
+			uPzcL+E4vnnJJh/QLARvIOfhf6ceeAOdCNCvmgLSYec=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bIp8IL7+1yMUXpTnrq1PBeRe6Q5CtRZol5pEtJ9N/CE=
+			3sDudlzaGo4jZoPsk0Lx/LvRSZPEsRs9dmAxa5Ks15k=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KUw/RM8Ng8Yq6O/zglbkdhge3ZEF7vckEHcYkVDFw00=
+			GlSFF6Mtns8cGWo+e3Ul3/61DQAr4m7cmQyZ8Crzy6w=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KUw/RM8Ng8Yq6O/zglbkdhge3ZEF7vckEHcYkVDFw00=
+			GlSFF6Mtns8cGWo+e3Ul3/61DQAr4m7cmQyZ8Crzy6w=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UTMRhjQIWcjgeiluGAhrC53DXcYalqxEV447m/nCUQk=
+			wL8/8kUmK2lQIsGcbc6UIj2s4Vw9iYkNVuZk+aUtMSM=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KUw/RM8Ng8Yq6O/zglbkdhge3ZEF7vckEHcYkVDFw00=
+			xP+sB+Ash0MPzmAhuUuLaqas/e5WQuxE1ynhVXmWPI4=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aQtZhO2zBwCbpWaTiwZAHLHmSsO1Xem+VDPTPuyJifw=
+			WN5GA/Z9osybYWADDI8v69XYEvZHmDr0e9a2MhoePdM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -135,14 +135,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gZUuGonRz6ps3kWTXil0g6kKuoCKjr7T40S7vyZeZaM=
+			x42tSuqhUl4q7ExwE7eSr/ww7pP5h+xtxh7pXIMNLns=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eWIEINq+OCcMY8j1P7ZrLraPkKNTgvqDW0fXikjFtgk=
+			bTgEeVzgT3wrN1gu5KOKlAkbVydhjfi8KQiiV8Ziul4=
 			</data>
 		</dict>
 		<key>Resources/en.lproj/Localizable.strings</key>

@@ -6,63 +6,63 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		o0mmzl4nVV5jWCBb9sSyNP5ezuk=
+		QdZvVyeOxjAC6HaaaCmOXQyJ2To=
 		</data>
 		<key>Headers/ChatistSdk-Swift.h</key>
 		<data>
-		+f+MpassnjKuCG1y5X93AnrAkVM=
+		+giGgMeua1FxxEGUDU8YTzENl7A=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f+wzcbzSFTxt1tcxc7cAPGvcc3o=
+		iYsQW9CqO9DgOvOCkQe5ycC4mVM=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ekx4Dttopz7xtDa8Y5FlZ5KFviE=
+		kTPRVVnb9Q5WXzp55Y7JxzmQCEg=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
-		zxMWe0E8kSwzcnah6glXaO6Dc9o=
+		VtqLXrO9o1Lj1gyArImdglR9yrQ=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zxMWe0E8kSwzcnah6glXaO6Dc9o=
+		VtqLXrO9o1Lj1gyArImdglR9yrQ=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		b2fUbcbmmgh1OS+CMNtMeuRENwk=
+		+yMoZarXEypLXlRi4yXsoL5Ub5w=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zxMWe0E8kSwzcnah6glXaO6Dc9o=
+		N35EJzfgyaInxbWeLD6OK/mc7Ns=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Kj/QO73pn3zpc6xA/Mmt0h2hVyU=
+		xf9JS0tSjI+UIlXvU44LgpA7Vcg=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ekx4Dttopz7xtDa8Y5FlZ5KFviE=
+		kTPRVVnb9Q5WXzp55Y7JxzmQCEg=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
-		5VbAJeRum1F1QUb18+pBNKcFVds=
+		cqjrss1HEfAdR8pYNGXBkEnrEpc=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5VbAJeRum1F1QUb18+pBNKcFVds=
+		cqjrss1HEfAdR8pYNGXBkEnrEpc=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		6/8hEy6ESys5a9chqfE1fS0OMis=
+		mlwhmKBGe4bGhjUxKp+regL5DlM=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5VbAJeRum1F1QUb18+pBNKcFVds=
+		LOCO9WDcnQI3VJ5W6dPswixz3lg=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		w/5BLbfFzTNFCDKFDNmfm6dRUwU=
+		zA4cSiMhKSTe3HNwGlBMRq+2jmg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -93,98 +93,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BFzCDsS7HBZUK6XYcwWW7maYGyEtrTTuRJ3fLHfUjyA=
+			40V8EHCEVU2KAwdma/mHCTxw1NUsrDUVmUT+uXRdXjo=
 			</data>
 		</dict>
 		<key>Headers/ChatistSdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aJuEmkC13GauEgjEmfSOtbszHJBejkgg/K/qUIeMiK0=
+			jmNsw8bVOeVKJua0xHsydbFMhDoSDssMXnZkNpoW3sw=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vJfBQrRiX0cbLB5E3w1xX7f3Bz+juM5qU2DkyP7Fh2M=
+			71ncy6FEvD0A2T3XyXYd+vcugJoKUfrElwO2FeWW8Ek=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C/b9cvq6AnkkjppGkEDNjTsZ/RVDJvpYSs0+8wAmtFk=
+			WnQ88oKSnhGcy1e7LYvkyMK5Gg1mrtubUqNQk771GUw=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C/b9cvq6AnkkjppGkEDNjTsZ/RVDJvpYSs0+8wAmtFk=
+			WnQ88oKSnhGcy1e7LYvkyMK5Gg1mrtubUqNQk771GUw=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Vc9ra2hmub+EpuDRzu2+jnq6u8egLbTunQdLMT4pwk=
+			al1upoAhxKAd5Rpyg2Sf7E2DpvwaMgcwP/xKcVcb4Fc=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C/b9cvq6AnkkjppGkEDNjTsZ/RVDJvpYSs0+8wAmtFk=
+			d50uvCKYt+KGgG0oqdFi/BDrL9evmPPAwAX5skNogWo=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BbvAa5/u8cfM3vNvojtFZzh5H7n+3Ry6pVOt1HNfLL4=
+			SvDKan6UX+R1DAtaP9EJgn4+JftvKFT5aaJe96uFeZ0=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vJfBQrRiX0cbLB5E3w1xX7f3Bz+juM5qU2DkyP7Fh2M=
+			71ncy6FEvD0A2T3XyXYd+vcugJoKUfrElwO2FeWW8Ek=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y/umMrvhXlzqVKtcWgGpn0Mrc9sHeJblVZnEUJ5My1g=
+			AYLySRake6jSI3sVjypAqqh/NLhm+otbfEO0fo505Pk=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y/umMrvhXlzqVKtcWgGpn0Mrc9sHeJblVZnEUJ5My1g=
+			AYLySRake6jSI3sVjypAqqh/NLhm+otbfEO0fo505Pk=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+SBAZfildxbEhziPqZgwNvRoPhB94KRFWY6cXMm4H5Q=
+			jbsZ5AvV7MLH0s0mA5fLebtQKCMigTvZSWBIFuLHLUI=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y/umMrvhXlzqVKtcWgGpn0Mrc9sHeJblVZnEUJ5My1g=
+			Yyzxb8q7KeGGu/vyJw+UEOsNxK1OK9K+2xZuORCWeqw=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zK8cHopzI1Xn7Uqt4PPjgo0A76MUxXspN/CeJ28fhFw=
+			ZjkpxcypIyL2P0ACReTQfEoZwI9C8lhY3QliaQRs5pk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
