@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CBBC80F52EDEE79C0027050E /* ChatistSdk in Frameworks */ = {isa = PBXBuildFile; productRef = CBBC80F42EDEE79C0027050E /* ChatistSdk */; };
+		21E8C25E2FDAA3F70078DD52 /* ChatistSdk in Frameworks */ = {isa = PBXBuildFile; productRef = 21E8C25D2FDAA3F70078DD52 /* ChatistSdk */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,17 +40,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBBC80F52EDEE79C0027050E /* ChatistSdk in Frameworks */,
+				21E8C25E2FDAA3F70078DD52 /* ChatistSdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21E8C25C2FDAA3F70078DD52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CBBC80D22EDEE6200027050E = {
 			isa = PBXGroup;
 			children = (
 				CBBC80DD2EDEE6200027050E /* Example-UIKit */,
+				21E8C25C2FDAA3F70078DD52 /* Frameworks */,
 				CBBC80DC2EDEE6200027050E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,7 +91,7 @@
 			);
 			name = "Example-UIKit";
 			packageProductDependencies = (
-				CBBC80F42EDEE79C0027050E /* ChatistSdk */,
+				21E8C25D2FDAA3F70078DD52 /* ChatistSdk */,
 			);
 			productName = "Example-UIKit";
 			productReference = CBBC80DB2EDEE6200027050E /* Example-UIKit.app */;
@@ -114,7 +122,7 @@
 			mainGroup = CBBC80D22EDEE6200027050E;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				CBBC80F32EDEE79C0027050E /* XCRemoteSwiftPackageReference "chatist-ios-sdk" */,
+				21E8C25B2FDAA3CA0078DD52 /* XCLocalSwiftPackageReference "../../chatist-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CBBC80DC2EDEE6200027050E /* Products */;
@@ -361,21 +369,17 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		CBBC80F32EDEE79C0027050E /* XCRemoteSwiftPackageReference "chatist-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:Teleprompter-llc/chatist-ios-sdk.git";
-			requirement = {
-				kind = exactVersion;
-				version = 1.0.0;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		21E8C25B2FDAA3CA0078DD52 /* XCLocalSwiftPackageReference "../../chatist-ios-sdk" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../chatist-ios-sdk";
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CBBC80F42EDEE79C0027050E /* ChatistSdk */ = {
+		21E8C25D2FDAA3F70078DD52 /* ChatistSdk */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CBBC80F32EDEE79C0027050E /* XCRemoteSwiftPackageReference "chatist-ios-sdk" */;
+			package = 21E8C25B2FDAA3CA0078DD52 /* XCLocalSwiftPackageReference "../../chatist-ios-sdk" */;
 			productName = ChatistSdk;
 		};
 /* End XCSwiftPackageProductDependency section */
