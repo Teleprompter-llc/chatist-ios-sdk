@@ -64,6 +64,13 @@
       },
       {
         "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -71,6 +78,70 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
       },
       {
         "kind": "Import",
@@ -923,17 +994,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -4219,17 +4290,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -4743,38 +4814,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -4785,17 +4828,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -4806,17 +4849,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -4827,10 +4884,24 @@
           },
           {
             "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SendableMetatype",
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -5189,37 +5260,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "PhotosUI",
-        "printedName": "PhotosUI",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5233,10 +5273,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "ChatistSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "ChatistSdk"
       },
       {
         "kind": "Import",
@@ -5247,15 +5284,8 @@
       },
       {
         "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
-        "declKind": "Import",
-        "moduleName": "ChatistSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "ChatistSdk"
       },
@@ -6316,6 +6346,74 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PDFKit",
+        "printedName": "PDFKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PDFKit",
+        "printedName": "PDFKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "PhotosUI",
+        "printedName": "PhotosUI",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatistSdk"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7009,156 +7107,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ReferenceConvertible",
-            "printedName": "ReferenceConvertible",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ReferenceType",
-                "printedName": "ReferenceType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSURL",
-                    "printedName": "Foundation.NSURL",
-                    "usr": "c:objc(cs)NSURL"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation20ReferenceConvertibleP",
-            "mangledName": "$s10Foundation20ReferenceConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSURL",
-                    "printedName": "Foundation.NSURL",
-                    "usr": "c:objc(cs)NSURL"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CustomPlaygroundQuickLookable",
-            "printedName": "_CustomPlaygroundQuickLookable",
-            "usr": "s:s30_CustomPlaygroundQuickLookableP",
-            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByFileReferenceLiteral",
-            "printedName": "_ExpressibleByFileReferenceLiteral",
-            "usr": "s:s34_ExpressibleByFileReferenceLiteralP",
-            "mangledName": "$ss34_ExpressibleByFileReferenceLiteralP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Transferable",
             "printedName": "Transferable",
             "children": [
@@ -7185,6 +7133,156 @@
             ],
             "usr": "s:16CoreTransferable0B0P",
             "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByFileReferenceLiteral",
+            "printedName": "_ExpressibleByFileReferenceLiteral",
+            "usr": "s:s34_ExpressibleByFileReferenceLiteralP",
+            "mangledName": "$ss34_ExpressibleByFileReferenceLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
           }
         ]
       },
@@ -7213,38 +7311,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -7255,10 +7325,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -7269,10 +7353,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       }
@@ -7281,1813 +7379,1981 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/AITypingCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/AITypingCell.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 14,
       "value": "\"AITypingCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
       "offset": 1091,
       "length": 17,
       "value": "\"CHATIST_API_URL\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 1318,
+      "offset": 1647,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1657,
+      "length": 1,
+      "value": "\"\/attachments\/presign\""
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2111,
       "length": 20,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 1328,
+      "offset": 2121,
       "length": 1,
       "value": "\"\/settings\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 1371,
+      "offset": 2164,
       "length": 11,
       "value": "\"updatedAt\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 1753,
-      "length": 15,
-      "value": "\"attachments[]\""
-    },
-    {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2011,
+      "offset": 2694,
       "length": 25,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 2021,
+      "offset": 2704,
       "length": 1,
       "value": "\"\/ticket\/create\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 2250,
+      "offset": 2923,
       "length": 30,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 2260,
+      "offset": 2933,
       "length": 1,
       "value": "\"\/ticket\/\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 2279,
+      "offset": 2952,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 2451,
+      "offset": 3124,
       "length": 19,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 2461,
+      "offset": 3134,
       "length": 1,
       "value": "\"\/tickets\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 2678,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2847,
-      "length": 15,
-      "value": "\"attachments[]\""
-    },
-    {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3105,
+      "offset": 3559,
       "length": 30,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 3115,
+      "offset": 3569,
       "length": 1,
       "value": "\"\/ticket\/\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 3134,
+      "offset": 3588,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 3375,
+      "offset": 3819,
       "length": 27,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 3385,
+      "offset": 3829,
       "length": 1,
       "value": "\"\/customer\/update\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 3624,
+      "offset": 4068,
       "length": 34,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 3634,
+      "offset": 4078,
       "length": 1,
       "value": "\"\/customer\/device\/update\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 3880,
+      "offset": 4324,
       "length": 34,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 3890,
+      "offset": 4334,
       "length": 1,
       "value": "\"\/customer\/device\/logout\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 4138,
+      "offset": 4582,
       "length": 35,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 4148,
+      "offset": 4592,
       "length": 1,
       "value": "\"\/ticket\/\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 4167,
+      "offset": 4611,
       "length": 1,
       "value": "\"\/read\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 4338,
+      "offset": 4782,
       "length": 19,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 4348,
+      "offset": 4792,
       "length": 1,
       "value": "\"\/license\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 4534,
+      "offset": 4978,
       "length": 26,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 4544,
+      "offset": 4988,
       "length": 1,
       "value": "\"\/knowledge-base\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 4732,
+      "offset": 5176,
       "length": 20,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 4742,
+      "offset": 5186,
       "length": 1,
       "value": "\"\/customer\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 4970,
+      "offset": 5414,
       "length": 39,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 4980,
+      "offset": 5424,
       "length": 1,
       "value": "\"\/ticket\/\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 4999,
+      "offset": 5443,
       "length": 1,
       "value": "\"\/feedback\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 5197,
+      "offset": 5641,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 5476,
+      "offset": 5920,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 5541,
+      "offset": 5985,
       "length": 3,
       "value": "403"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 5605,
+      "offset": 6049,
       "length": 3,
       "value": "404"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/AssigneDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/AssigneDto.swift",
       "kind": "StringLiteral",
       "offset": 279,
       "length": 19,
       "value": "\"assignee-ai-agent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/AssigneDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/AssigneDto.swift",
       "kind": "StringLiteral",
       "offset": 310,
       "length": 10,
       "value": "\"AI Agent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/AssigneDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/AssigneDto.swift",
       "kind": "StringLiteral",
       "offset": 391,
       "length": 22,
       "value": "\"assignee-human-agent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/AssigneDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/AssigneDto.swift",
       "kind": "StringLiteral",
       "offset": 425,
       "length": 13,
       "value": "\"Human Agent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/Components\/AttachmentGridView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/AttachmentEncoder.swift",
+      "kind": "FloatLiteral",
+      "offset": 214,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/Components\/AttachmentGridView.swift",
       "kind": "Array",
       "offset": 979,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/Components\/AttachmentGridView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/Components\/AttachmentGridView.swift",
       "kind": "Array",
       "offset": 1099,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/Components\/AttachmentGridView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1404,
+      "length": 3,
+      "value": "280"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/AttachmentViewer\/AttachmentViewerViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 761,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "Array",
       "offset": 529,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
       "offset": 760,
       "length": 3,
       "value": "150"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
       "offset": 804,
       "length": 2,
       "value": "89"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
       "offset": 841,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
       "offset": 885,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
       "offset": 930,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/AttachmentsScrollView.swift",
       "kind": "IntegerLiteral",
       "offset": 972,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Bundle+Ext.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Bundle+Ext.swift",
       "kind": "StringLiteral",
       "offset": 239,
       "length": 6,
       "value": "\".app\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Bundle+Ext.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Bundle+Ext.swift",
       "kind": "StringLiteral",
       "offset": 397,
       "length": 22,
       "value": "\"ChatistSdk.framework\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "Dictionary",
       "offset": 700,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1211,
       "length": 25,
       "value": "\"chatist_sdk_initialized\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1275,
       "length": 24,
       "value": "\"chatist_sdk_configured\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1340,
       "length": 26,
       "value": "\"chatist_customer_updated\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1406,
       "length": 26,
       "value": "\"chatist_device_token_set\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1473,
       "length": 26,
       "value": "\"chatist_settings_fetched\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1601,
       "length": 21,
       "value": "\"chatist_chat_opened\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1654,
       "length": 21,
       "value": "\"chatist_chat_closed\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1712,
       "length": 22,
       "value": "\"chatist_message_sent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1775,
       "length": 26,
       "value": "\"chatist_message_received\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1841,
       "length": 25,
       "value": "\"chatist_attachment_sent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1905,
       "length": 24,
       "value": "\"chatist_ticket_created\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 1967,
       "length": 23,
       "value": "\"chatist_ticket_viewed\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 2103,
       "length": 23,
       "value": "\"chatist_push_received\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 2162,
       "length": 21,
       "value": "\"chatist_push_tapped\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 2222,
       "length": 24,
       "value": "\"chatist_push_presented\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 2341,
       "length": 19,
       "value": "\"chatist_api_error\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 2398,
       "length": 23,
       "value": "\"chatist_network_error\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 2465,
       "length": 29,
       "value": "\"chatist_configuration_error\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 2701,
       "length": 11,
       "value": "\"ticket_id\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 2747,
       "length": 12,
       "value": "\"message_id\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 2798,
       "length": 16,
       "value": "\"message_length\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 2855,
       "length": 18,
       "value": "\"attachment_count\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 2914,
       "length": 18,
       "value": "\"attachment_types\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 2972,
       "length": 18,
       "value": "\"is_first_message\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 3047,
       "length": 12,
       "value": "\"error_code\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 3097,
       "length": 15,
       "value": "\"error_message\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 3149,
       "length": 14,
       "value": "\"error_domain\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 3234,
       "length": 19,
       "value": "\"notification_type\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 3297,
       "length": 21,
       "value": "\"notification_source\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 3373,
       "length": 13,
       "value": "\"screen_name\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 3422,
       "length": 13,
       "value": "\"action_type\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 3469,
       "length": 10,
       "value": "\"duration\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 3539,
       "length": 14,
       "value": "\"device_model\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 3588,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsEvent.swift",
       "kind": "StringLiteral",
       "offset": 3636,
       "length": 13,
       "value": "\"app_version\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "BooleanLiteral",
       "offset": 248,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Array",
       "offset": 306,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Dictionary",
       "offset": 858,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Dictionary",
       "offset": 1837,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Dictionary",
       "offset": 2116,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Dictionary",
       "offset": 3161,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Dictionary",
       "offset": 3640,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Analytics\/ChatistAnalyticsManager.swift",
       "kind": "Dictionary",
       "offset": 4045,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Components\/ChatistBrandingView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Components\/ChatistBrandingView.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 13,
       "value": "\"chatistLogo\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Coordinators\/ChatistCoordinator.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Coordinators\/ChatistCoordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 2864,
+      "offset": 2908,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistGlassView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistGlassView.swift",
       "kind": "IntegerLiteral",
       "offset": 396,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistGlassView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistGlassView.swift",
       "kind": "IntegerLiteral",
       "offset": 1557,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistNotificationView\/ChatistNotificationUIView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistNotificationView\/ChatistNotificationUIView.swift",
       "kind": "BooleanLiteral",
       "offset": 636,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistNotificationView\/ChatistNotificationUIView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ChatistNotificationView\/ChatistNotificationUIView.swift",
       "kind": "Array",
       "offset": 991,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/ULID\/Data+Base32.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/CreateTicketDto.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 16,
+      "value": "\"attachment_ids\""
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/ULID\/Data+Base32.swift",
       "kind": "StringLiteral",
       "offset": 88,
       "length": 34,
       "value": "\"0123456789ABCDEFGHJKMNPQRSTVWXYZ\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/ULID\/Data+Base32.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/ULID\/Data+Base32.swift",
       "kind": "Array",
       "offset": 203,
       "length": 1871,
       "value": "[0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f, 0x10, 0x11, 0x01, 0x12, 0x13, 0x01, 0x14, 0x15, 0x00, 0x16, 0x17, 0x18, 0x19, 0x1a, 0xff, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f, 0x10, 0x11, 0x01, 0x12, 0x13, 0x01, 0x14, 0x15, 0x00, 0x16, 0x17, 0x18, 0x19, 0x1a, 0xff, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/ULID\/Data+Base32.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/ULID\/Data+Base32.swift",
       "kind": "BooleanLiteral",
       "offset": 3776,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/EmptyStateCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/EmptyStateCell.swift",
       "kind": "StringLiteral",
       "offset": 279,
       "length": 16,
       "value": "\"EmptyStateCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/ErrorStateCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/ErrorStateCell.swift",
       "kind": "StringLiteral",
       "offset": 273,
       "length": 16,
       "value": "\"ErrorStateCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Events.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Events.swift",
       "kind": "StringLiteral",
       "offset": 101,
       "length": 16,
       "value": "\"didChangeState\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Components\/FAQButton.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Components\/FAQButton.swift",
       "kind": "BooleanLiteral",
       "offset": 387,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/HeaderCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/FeedbackAlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 296,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/FeedbackAlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 347,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/FeedbackAlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/FeedbackAlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/FeedbackAlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/FeedbackAlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 530,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/FeedbackAlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 581,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/FeedbackAlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 623,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/FeedbackAlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 671,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/FeedbackAlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 714,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/FeedbackAlertViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 754,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/HeaderCell.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 12,
       "value": "\"HeaderCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ImageCache.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ImageCache.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 288,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ImageCache.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ImageCache.swift",
       "kind": "IntegerLiteral",
       "offset": 295,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/ImageViewer\/ImageViewerViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 762,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseArticleCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseArticleCell.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 26,
       "value": "\"KnowledgeBaseArticleCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseArticleCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseArticleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 460,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseArticleCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseArticleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 514,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseArticleCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseArticleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 559,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseArticleCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseArticleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 600,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseArticleCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseArticleCell.swift",
       "kind": "IntegerLiteral",
       "offset": 640,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/KnowledgeBaseDetail\/KnowledgeBaseDetailViewController.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/KnowledgeBaseDetail\/KnowledgeBaseDetailViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 333,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/KnowledgeBaseDetail\/KnowledgeBaseDetailViewModel.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/KnowledgeBaseDetail\/KnowledgeBaseDetailViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 281,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/KnowledgeBaseDetail\/KnowledgeBaseDetailViewModel.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/KnowledgeBaseDetail\/KnowledgeBaseDetailViewModel.swift",
       "kind": "Array",
       "offset": 441,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/KnowledgeBaseDetail\/KnowledgeBaseDetailViewModel.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/KnowledgeBaseDetail\/KnowledgeBaseDetailViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseHeaderCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Cells\/KnowledgeBaseHeaderCell.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 25,
       "value": "\"KnowledgeBaseHeaderCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Model\/KnowledgeBaseListDataSourceConfigurator.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/KnowledgeBase\/Model\/KnowledgeBaseListDataSourceConfigurator.swift",
       "kind": "BooleanLiteral",
       "offset": 4211,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/LifecycleManager.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/LifecycleManager.swift",
       "kind": "Array",
       "offset": 369,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/LoadingButton.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/LoadingButton.swift",
       "kind": "BooleanLiteral",
       "offset": 239,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/LoadingCell\/LoadingCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/LoadingCell\/LoadingCell.swift",
       "kind": "StringLiteral",
       "offset": 283,
       "length": 13,
       "value": "\"LoadingCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/LoadingCell\/LoadingCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/LoadingCell\/LoadingCell.swift",
       "kind": "Array",
       "offset": 412,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 7,
       "value": "\"DEBUG\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 117,
       "length": 6,
       "value": "\"INFO\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 143,
       "length": 9,
       "value": "\"WARNING\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 170,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 10,
       "value": "\"CRITICAL\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
       "kind": "BooleanLiteral",
       "offset": 342,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 411,
       "length": 9,
       "value": "\"Chatist\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 450,
       "length": 17,
       "value": "\"com.chatist.ios\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/LogoutDeviceDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/LogoutDeviceDto.swift",
       "kind": "StringLiteral",
       "offset": 134,
       "length": 5,
       "value": "\"apn\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/MarkdownAttributedStringRenderer.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/MarkdownAttributedStringRenderer.swift",
       "kind": "Array",
       "offset": 1220,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/MarkdownAttributedStringRenderer.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/MarkdownAttributedStringRenderer.swift",
       "kind": "Array",
       "offset": 1388,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/MessageCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/MessageCell.swift",
       "kind": "StringLiteral",
       "offset": 186,
       "length": 13,
       "value": "\"MessageCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/MultipartBody.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/MultipartBody.swift",
       "kind": "StringLiteral",
       "offset": 101,
       "length": 6,
       "value": "\"\r\n\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Components\/NewTicketButton.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Components\/NewTicketButton.swift",
       "kind": "BooleanLiteral",
       "offset": 1079,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/NotificationManager.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/NotificationManager.swift",
       "kind": "IntegerLiteral",
       "offset": 339,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/ImageViewer\/PagedImageViewController.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/AttachmentViewer\/PagedAttachmentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 961,
+      "offset": 1022,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/ImageViewer\/PagedImageViewController.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/AttachmentViewer\/PagedAttachmentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1001,
+      "offset": 1062,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ParallaxView\/ParallaxTableViewController.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ParallaxView\/ParallaxTableViewController.swift",
       "kind": "FloatLiteral",
       "offset": 632,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ParallaxView\/ParallaxTableViewController.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ParallaxView\/ParallaxTableViewController.swift",
       "kind": "FloatLiteral",
       "offset": 680,
       "length": 4,
       "value": "32.0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ParallaxView\/ParallaxTableViewController.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/Components\/ParallaxView\/ParallaxTableViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 917,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/ProcessInfo+Ext.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/Components\/PdfBubbleTileView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 279,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/Components\/PdfBubbleTileView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/Components\/PdfBubbleTileView.swift",
+      "kind": "FloatLiteral",
+      "offset": 367,
+      "length": 4,
+      "value": "0.18"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/MessageCell\/Components\/PdfBubbleTileView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 899,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/PresignAttachmentDto.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 15,
+      "value": "\"original_name\""
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/PresignAttachmentDto.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 11,
+      "value": "\"mime_type\""
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/PresignAttachmentDto.swift",
+      "kind": "StringLiteral",
+      "offset": 678,
+      "length": 12,
+      "value": "\"upload_url\""
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/PresignAttachmentDto.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 15,
+      "value": "\"upload_method\""
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/PresignAttachmentDto.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 16,
+      "value": "\"upload_headers\""
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/PresignAttachmentDto.swift",
+      "kind": "StringLiteral",
+      "offset": 794,
+      "length": 12,
+      "value": "\"expires_at\""
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/ProcessInfo+Ext.swift",
       "kind": "StringLiteral",
       "offset": 71,
       "length": 28,
       "value": "\"XCODE_RUNNING_FOR_PREVIEWS\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/ProcessInfo+Ext.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/ProcessInfo+Ext.swift",
       "kind": "StringLiteral",
       "offset": 104,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
       "kind": "StringLiteral",
       "offset": 6546,
       "length": 22,
       "value": "\"okbzgwe4pvzhay6j5dk8\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
       "kind": "StringLiteral",
       "offset": 6606,
       "length": 17,
       "value": "\"MessageReceived\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
       "kind": "StringLiteral",
       "offset": 6668,
       "length": 20,
       "value": "\"TicketStateChanged\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/PusherService\/PusherServiceImpl.swift",
       "kind": "StringLiteral",
       "offset": 6737,
       "length": 23,
       "value": "\"TicketWaitingForAgent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
       "kind": "StringLiteral",
       "offset": 239,
       "length": 14,
       "value": "\"schedule-001\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
       "kind": "StringLiteral",
       "offset": 272,
       "length": 10,
       "value": "\"09:00:00\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
       "kind": "StringLiteral",
       "offset": 299,
       "length": 10,
       "value": "\"18:00:00\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
       "kind": "Array",
       "offset": 323,
       "length": 56,
       "value": "[\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\"]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
       "kind": "StringLiteral",
       "offset": 414,
       "length": 14,
       "value": "\"schedule-002\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
       "kind": "StringLiteral",
       "offset": 447,
       "length": 10,
       "value": "\"10:00:00\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
       "kind": "StringLiteral",
       "offset": 474,
       "length": 10,
       "value": "\"14:00:00\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/ScheduleDto.swift",
       "kind": "Array",
       "offset": 498,
       "length": 12,
       "value": "[\"Saturday\"]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/SdkData.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/SdkData.swift",
       "kind": "BooleanLiteral",
       "offset": 114,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/SdkData.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/SdkData.swift",
       "kind": "BooleanLiteral",
       "offset": 146,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/SdkData.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/SdkData.swift",
       "kind": "BooleanLiteral",
       "offset": 189,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/SdkData.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Data\/SdkData.swift",
       "kind": "Array",
       "offset": 268,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SendMessageDto.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 16,
+      "value": "\"attachment_ids\""
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderDto.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 17,
       "value": "\"sender-ai-agent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderDto.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 10,
       "value": "\"AI Agent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderDto.swift",
       "kind": "StringLiteral",
       "offset": 385,
       "length": 20,
       "value": "\"sender-human-agent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderDto.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 13,
       "value": "\"Human Agent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
       "kind": "StringLiteral",
       "offset": 151,
       "length": 10,
       "value": "\"customer\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
       "kind": "StringLiteral",
       "offset": 182,
       "length": 13,
       "value": "\"human agent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 10,
       "value": "\"ai agent\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Domain\/SenderTypeDto.swift",
       "kind": "StringLiteral",
       "offset": 240,
       "length": 8,
       "value": "\"system\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/Components\/SkeletonAvatarView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/Components\/SkeletonAvatarView.swift",
       "kind": "IntegerLiteral",
       "offset": 368,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/Components\/SkeletonBubbleView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/Components\/SkeletonBubbleView.swift",
       "kind": "Array",
       "offset": 336,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/TicketComposer.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/TicketComposer.swift",
       "kind": "IntegerLiteral",
       "offset": 217,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/TicketComposer.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/TicketComposer.swift",
       "kind": "IntegerLiteral",
       "offset": 256,
       "length": 3,
       "value": "150"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/TicketComposer.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/TicketComposer.swift",
       "kind": "IntegerLiteral",
       "offset": 311,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/TicketComposer.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/TicketComposer.swift",
       "kind": "IntegerLiteral",
       "offset": 397,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/TicketComposer.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/TicketComposer.swift",
       "kind": "BooleanLiteral",
       "offset": 905,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/TicketComposer.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Componenets\/TicketComposer.swift",
       "kind": "BooleanLiteral",
       "offset": 992,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Model\/TicketDataSourceConfigurator.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Model\/TicketDataSourceConfigurator.swift",
       "kind": "BooleanLiteral",
       "offset": 5361,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Model\/TicketDataSourceConfigurator.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Model\/TicketDataSourceConfigurator.swift",
       "kind": "BooleanLiteral",
       "offset": 5521,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketEmptyStateCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketEmptyStateCell.swift",
       "kind": "StringLiteral",
       "offset": 170,
       "length": 22,
       "value": "\"TicketEmptyStateCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketErrorStateCell.swift",
       "kind": "StringLiteral",
       "offset": 236,
       "length": 22,
       "value": "\"TicketErrorStateCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
       "kind": "IntegerLiteral",
       "offset": 282,
       "length": 2,
       "value": "37"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
       "kind": "FloatLiteral",
       "offset": 334,
       "length": 4,
       "value": "18.5"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
       "kind": "IntegerLiteral",
       "offset": 378,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
       "kind": "IntegerLiteral",
       "offset": 426,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
       "kind": "IntegerLiteral",
       "offset": 480,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
       "kind": "IntegerLiteral",
       "offset": 522,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
       "kind": "IntegerLiteral",
       "offset": 566,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
       "kind": "BooleanLiteral",
       "offset": 752,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Components\/TicketFeedbackView.swift",
       "kind": "Array",
-      "offset": 1060,
+      "offset": 1171,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Model\/TicketListDataSourceConfigurator.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Model\/TicketListDataSourceConfigurator.swift",
       "kind": "BooleanLiteral",
       "offset": 4087,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/TicketListViewModel.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/TicketListViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 712,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/TicketLoadingCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/TicketLoadingCell.swift",
       "kind": "StringLiteral",
       "offset": 158,
       "length": 19,
       "value": "\"TicketLoadingCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/TicketLoadingCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/TicketLoadingCell.swift",
       "kind": "BooleanLiteral",
       "offset": 332,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/TicketLoadingCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/TicketLoadingCell.swift",
       "kind": "BooleanLiteral",
       "offset": 392,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/TicketLoadingCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/TicketLoadingCell.swift",
       "kind": "BooleanLiteral",
       "offset": 450,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/TicketLoadingCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/TicketLoadingCell\/TicketLoadingCell.swift",
       "kind": "BooleanLiteral",
       "offset": 510,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
       "kind": "StringLiteral",
       "offset": 283,
       "length": 19,
       "value": "\"TicketPreviewCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 851,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 900,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 955,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1010,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1064,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1104,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1146,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1199,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1250,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/TicketList\/Cells\/TicketPreviewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1295,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 337,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 388,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1002,
+      "offset": 1168,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1056,
+      "offset": 1222,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 10547,
+      "offset": 12371,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10569,
+      "offset": 12393,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11050,
+      "offset": 12874,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 358,
+      "offset": 396,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 400,
+      "offset": 438,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 453,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 515,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 618,
+      "offset": 479,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "Array",
-      "offset": 672,
+      "offset": 533,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 788,
+      "offset": 649,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 844,
+      "offset": 705,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1233,
+      "offset": 1094,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/TicketViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1332,
+      "offset": 1193,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "Array",
       "offset": 222,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "IntegerLiteral",
       "offset": 307,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "IntegerLiteral",
       "offset": 399,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "IntegerLiteral",
       "offset": 444,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "FloatLiteral",
       "offset": 481,
       "length": 4,
       "value": "0.95"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "FloatLiteral",
       "offset": 526,
       "length": 4,
       "value": "0.12"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "FloatLiteral",
       "offset": 568,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "FloatLiteral",
       "offset": 614,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "FloatLiteral",
       "offset": 659,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "FloatLiteral",
       "offset": 712,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "IntegerLiteral",
       "offset": 752,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "IntegerLiteral",
       "offset": 1294,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/AITypingCell\/TypingDotsView.swift",
       "kind": "IntegerLiteral",
       "offset": 1357,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/UIDevice+Extensions.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/UIDevice+Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 192,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/UIDevice+Extensions.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/UIDevice+Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 220,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/UIDevice+Extensions.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/UIDevice+Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 247,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/URLRequest+Ext.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/URLRequest+Ext.swift",
       "kind": "StringLiteral",
       "offset": 58,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/URLRequest+Ext.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/URLRequest+Ext.swift",
       "kind": "StringLiteral",
       "offset": 78,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/URLRequest+Ext.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/URLRequest+Ext.swift",
       "kind": "StringLiteral",
       "offset": 98,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/URLRequest+Ext.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/URLRequest+Ext.swift",
       "kind": "StringLiteral",
       "offset": 120,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/URLRequest+Ext.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/API\/URLRequest+Ext.swift",
       "kind": "Dictionary",
       "offset": 242,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/UnreadMessagesManager.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Services\/UnreadMessagesManager.swift",
       "kind": "IntegerLiteral",
       "offset": 295,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/UserDefaults+Ext.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/Util\/UserDefaults+Ext.swift",
       "kind": "StringLiteral",
       "offset": 73,
       "length": 17,
       "value": "\"com.chatist.sdk\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Documents\/Teleprompter\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/WaitingForAgentCell\/WaitingForAgentCell.swift",
+      "filePath": "\/Users\/gujci\/Developer\/customer-support\/sdks\/chatist-swift-sdk\/Chatist\/Sources\/ChatistSdk\/UI\/ViewControllers\/Ticket\/Cells\/WaitingForAgentCell\/WaitingForAgentCell.swift",
       "kind": "StringLiteral",
       "offset": 232,
       "length": 21,
       "value": "\"WaitingForAgentCell\""
     },
     {
-      "filePath": "\/Users\/andrassamu\/Library\/Developer\/Xcode\/DerivedData\/Chatist-axkuptfvfgfuwdaekkudnxtbepyo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SdkRelease\/IntermediateBuildFilesPath\/Chatist.build\/Release-maccatalyst\/ChatistSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/gujci\/Library\/Developer\/Xcode\/DerivedData\/Chatist-fuecazikdpvhpwfwrcspoekttnit\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SdkRelease\/IntermediateBuildFilesPath\/Chatist.build\/Release-maccatalyst\/ChatistSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 735,
       "length": 13,
