@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CF/5+Chtbk8Rprnh5HkNVfWkFVk=
+		N6ByaG4sqvC5Kibpo72xmXFSl4A=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wgZ9l1P33bRzebOGjoA/bUpyaAY=
+		kZadXYfI/O+St25rLlJtlkS10Tc=
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p13EMyzpHjCvUXKgcF2JkbzLink=
+		aoE7QcyMu3xN9EYRILLmyghprNo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -142,7 +142,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			piZOH80/x2+qvS1fRMD4DVWNOfmUcIAKG5r+1PlT/E8=
+			vKHpqVXx4MxONEKQ5KRN1YoakP4yNhv5yEdAjB3o3n4=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jKoUrr+Bz2MBkiopl6FrDi0rUQ0UWrkr5sZmurBflRY=
+			oJoPdxzkRcJ9fxZsbTt24Q23LhBuNTk0BN+iD2GYvZs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

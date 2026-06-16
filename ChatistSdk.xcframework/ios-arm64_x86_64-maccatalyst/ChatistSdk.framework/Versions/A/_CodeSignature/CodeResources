@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		0bUxK8xTbq0cMQy8jtxBXCvZeVU=
+		yVg2vD3w40iv66CycvIK9wPU0kc=
 		</data>
 		<key>Resources/en.lproj/Localizable.strings</key>
 		<dict>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			svLr5quz0zZbEmIzTDwSbhQmcrl2eGTmJSfvG+RsKfs=
+			wqEHxWwom65KnYLbeXlMLnn0U0Cz7N5jqgYdywLaFjA=
 			</data>
 		</dict>
 		<key>Modules/ChatistSdk.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sHljZx0sR51VQjBzu5qFVR0Bt2/OCBTUalR60Ke/wMU=
+			nucs4njLtJ019lWm7PQRxi0AiWUuGYwtLxRjF0FaXcs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -142,7 +142,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DZ6Dp90SF2W3ctfe8cP1dgQvOd70GKhw3F2vyuGJatc=
+			IJO3f5IR19TOXPyTOprQXaPvcY7C1bTdsbyuK/XLCRU=
 			</data>
 		</dict>
 		<key>Resources/en.lproj/Localizable.strings</key>
